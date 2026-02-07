@@ -1,0 +1,198 @@
+digraph VaaniSetuArchitecture {
+    // Graph settings for clean layout
+    graph [
+        rankdir=TB,
+        splines=ortho,
+        nodesep=0.8,
+        ranksep=1.2,
+        bgcolor="#FFFFFF",
+        fontname="Arial",
+        fontsize=14
+    ];
+    
+    node [
+        shape=box,
+        style="rounded,filled",
+        fontname="Arial",
+        fontsize=11,
+        height=0.8,
+        width=2.5,
+        margin=0.2
+    ];
+    
+    edge [
+        fontname="Arial",
+        fontsize=9,
+        color="#666666"
+    ];
+    
+    // ============ USER LAYER ============
+    subgraph cluster_0 {
+        label="User Layer";
+        style=filled;
+        fillcolor="#F8F9FA";
+        fontsize=12;
+        fontname="Arial Bold";
+        
+        user [
+            label="Rural Citizens\n(Basic Mobile Phones)\n12+ Languages",
+            shape=ellipse,
+            fillcolor="#FFD700",
+            fontcolor="#000000",
+            width=3,
+            height=1.2
+        ];
+    }
+    
+    // ============ VOICE PROCESSING LAYER ============
+    subgraph cluster_1 {
+        label="Voice Processing Layer";
+        style=filled;
+        fillcolor="#E3F2FD";
+        fontsize=12;
+        fontname="Arial Bold";
+        
+        connect [label="Amazon Connect\nToll-Free: 1800-XXX-XXXX\nCall Routing & Queue", fillcolor="#2196F3", fontcolor=white];
+        transcribe [label="Amazon Transcribe\nSpeech-to-Text\nReal-time Streaming", fillcolor="#1976D2", fontcolor=white];
+        polly [label="Amazon Polly\nText-to-Speech\nNeural TTS", fillcolor="#1976D2", fontcolor=white];
+    }
+    
+    // ============ AI & ORCHESTRATION LAYER ============
+    subgraph cluster_2 {
+        label="AI & Orchestration Layer";
+        style=filled;
+        fillcolor="#F3E5F5";
+        fontsize=12;
+        fontname="Arial Bold";
+        
+        lambda_orchestrator [label="AWS Lambda\nConversation Orchestrator\nState Management", fillcolor="#9C27B0", fontcolor=white];
+        
+        subgraph cluster_2a {
+            label="";
+            style=invis;
+            
+            bedrock [label="Amazon Bedrock\nClaude Sonnet 4\nIntent & Response", fillcolor="#7B1FA2", fontcolor=white];
+            opensearch [label="Amazon OpenSearch\nVector Search\n250+ Schemes", fillcolor="#7B1FA2", fontcolor=white];
+        }
+    }
+    
+    // ============ INTEGRATION LAYER ============
+    subgraph cluster_3 {
+        label="Integration & Notification Layer";
+        style=filled;
+        fillcolor="#E8F5E9";
+        fontsize=12;
+        fontname="Arial Bold";
+        
+        api_gateway [label="API Gateway\nREST APIs\nRate Limiting", fillcolor="#4CAF50", fontcolor=white];
+        
+        subgraph cluster_3a {
+            label="";
+            style=invis;
+            
+            sns [label="Amazon SNS\nSMS Gateway", fillcolor="#388E3C", fontcolor=white];
+            eventbridge [label="EventBridge\nScheduler", fillcolor="#388E3C", fontcolor=white];
+            stepfunctions [label="Step Functions\nWorkflows", fillcolor="#388E3C", fontcolor=white];
+        }
+    }
+    
+    // ============ EXTERNAL SYSTEMS ============
+    subgraph cluster_4 {
+        label="External Government Systems";
+        style=filled;
+        fillcolor="#FFEBEE";
+        fontsize=12;
+        fontname="Arial Bold";
+        
+        aadhaar [label="UIDAI\nAadhaar Verification", fillcolor="#F44336", fontcolor=white];
+        edistrict [label="eDistrict APIs\nForm Submission\n(State Portals)", fillcolor="#D32F2F", fontcolor=white];
+        digilocker [label="DigiLocker\nDocument Fetch", fillcolor="#D32F2F", fontcolor=white];
+    }
+    
+    // ============ DATA LAYER ============
+    subgraph cluster_5 {
+        label="Data Storage Layer";
+        style=filled;
+        fillcolor="#FFF3E0";
+        fontsize=12;
+        fontname="Arial Bold";
+        
+        dynamodb [label="DynamoDB\nSessions & Applications\nSchemes Database", fillcolor="#FF9800", fontcolor=white];
+        s3 [label="Amazon S3\nCall Recordings\nDocuments & Analytics", fillcolor="#F57C00", fontcolor=white];
+        rds [label="RDS Aurora\nAnalytics & Reporting", fillcolor="#F57C00", fontcolor=white];
+    }
+    
+    // ============ MONITORING & SECURITY ============
+    subgraph cluster_6 {
+        label="Monitoring & Security";
+        style=filled;
+        fillcolor="#ECEFF1";
+        fontsize=12;
+        fontname="Arial Bold";
+        
+        cloudwatch [label="CloudWatch\nLogs & Metrics", fillcolor="#607D8B", fontcolor=white];
+        xray [label="X-Ray\nTracing", fillcolor="#546E7A", fontcolor=white];
+        kms [label="KMS\nEncryption", fillcolor="#546E7A", fontcolor=white];
+    }
+    
+    // ============ MAIN FLOW CONNECTIONS ============
+    
+    // User to Voice Layer
+    user -> connect [label="  1. Call  ", penwidth=2.5, color="#2196F3"];
+    
+    // Voice Processing Flow
+    connect -> transcribe [label="  2. Audio  ", penwidth=2, color="#1976D2"];
+    transcribe -> lambda_orchestrator [label="  3. Text  ", penwidth=2, color="#9C27B0"];
+    
+    // AI Processing
+    lambda_orchestrator -> bedrock [label="  4. Query  ", penwidth=2, color="#7B1FA2"];
+    lambda_orchestrator -> opensearch [label="  5. Search  ", penwidth=1.5, color="#7B1FA2"];
+    bedrock -> lambda_orchestrator [label="  6. Response  ", penwidth=2, color="#7B1FA2"];
+    
+    // Response Generation
+    lambda_orchestrator -> polly [label="  7. Text  ", penwidth=2, color="#1976D2"];
+    polly -> connect [label="  8. Audio  ", penwidth=2, color="#1976D2"];
+    connect -> user [label="  9. Voice  ", penwidth=2.5, color="#2196F3"];
+    
+    // Integration Flow
+    lambda_orchestrator -> api_gateway [label="  API Calls  ", penwidth=1.5, color="#4CAF50"];
+    api_gateway -> aadhaar [label="  Verify ID  ", color="#F44336"];
+    api_gateway -> edistrict [label="  Submit Form  ", color="#D32F2F"];
+    api_gateway -> digilocker [label="  Fetch Docs  ", color="#D32F2F", style=dashed];
+    
+    // Notifications
+    lambda_orchestrator -> sns [label="  Send SMS  ", penwidth=1.5, color="#388E3C"];
+    sns -> user [label="  SMS  ", color="#388E3C", style=dashed];
+    
+    // Scheduling
+    lambda_orchestrator -> eventbridge [label="  Schedule  ", color="#388E3C"];
+    eventbridge -> stepfunctions [label="  Trigger  ", color="#388E3C"];
+    stepfunctions -> lambda_orchestrator [label="  Execute  ", color="#388E3C", style=dashed];
+    
+    // Data Storage
+    lambda_orchestrator -> dynamodb [label="  Store Session  ", penwidth=1.5, color="#FF9800"];
+    api_gateway -> dynamodb [label="  Store App  ", color="#FF9800"];
+    connect -> s3 [label="  Record  ", color="#F57C00"];
+    lambda_orchestrator -> s3 [label="  Documents  ", color="#F57C00", style=dashed];
+    dynamodb -> rds [label="  Analytics  ", color="#F57C00", style=dotted];
+    
+    // Monitoring
+    lambda_orchestrator -> cloudwatch [label="  Logs  ", color="#607D8B", style=dotted];
+    connect -> cloudwatch [label="  Metrics  ", color="#607D8B", style=dotted];
+    lambda_orchestrator -> xray [label="  Traces  ", color="#546E7A", style=dotted];
+    
+    // Security
+    dynamodb -> kms [label="  Encrypt  ", color="#546E7A", style=dotted];
+    s3 -> kms [label="  Encrypt  ", color="#546E7A", style=dotted];
+    
+    // ============ LAYOUT HINTS ============
+    {rank=same; user}
+    {rank=same; connect; transcribe; polly}
+    {rank=same; lambda_orchestrator}
+    {rank=same; bedrock; opensearch}
+    {rank=same; api_gateway}
+    {rank=same; sns; eventbridge; stepfunctions}
+    {rank=same; aadhaar; edistrict; digilocker}
+    {rank=same; dynamodb; s3; rds}
+    {rank=same; cloudwatch; xray; kms}
+}
