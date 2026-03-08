@@ -1,0 +1,213 @@
+{
+  "schemeId": "PM-KISAN",
+  "name": {
+    "en": "PM Kisan Samman Nidhi",
+    "hi": "पीएम किसान सम्मान निधि",
+    "ta": "பிரதம மந்திரி கிசான் சம்மான் நிதி",
+    "bn": "পিএম কিষান সম্মান নিধি",
+    "te": "పిఎం కిసాన్ సమ్మాన్ నిధి",
+    "mr": "पीएम किसान सम्मान निधी",
+    "kn": "ಪಿಎಂ ಕಿಸಾನ್ ಸಮ್ಮಾನ್ ನಿಧಿ",
+    "ml": "പിഎം കിസാൻ സമ്മാൻ നിധി"
+  },
+  "description": {
+    "en": "PM-KISAN is a Central Sector scheme providing income support of ₹6,000 per year to all landholding farmer families across the country, in three equal installments of ₹2,000. The fund is directly transferred to the bank accounts of the beneficiaries.",
+    "hi": "पीएम-किसान एक केंद्रीय योजना है जो देश भर के सभी भूमिधारक किसान परिवारों को ₹6,000 प्रति वर्ष की आय सहायता प्रदान करती है, ₹2,000 की तीन समान किस्तों में। राशि सीधे लाभार्थियों के बैंक खातों में जमा की जाती है।",
+    "ta": "பிஎம்-கிசான் ஒரு மத்திய அரசு திட்டம் ஆகும், இது நாடு முழுவதும் உள்ள அனைத்து நிலம் வைத்திருக்கும் விவசாயி குடும்பங்களுக்கு ₹2,000 மூன்று சம தவணைகளில் ₹6,000 ஆண்டு வருமான உதவி வழங்குகிறது.",
+    "bn": "পিএম-কিষান কেন্দ্রীয় সরকারের একটি প্রকল্প যা দেশজুড়ে সমস্ত জমির মালিক কৃষক পরিবারকে প্রতি বছর ₹৬,০০০ আয় সহায়তা প্রদান করে, ₹২,০০০-এর তিনটি সমান কিস্তিতে।",
+    "te": "PM-KISAN దేశవ్యాప్తంగా భూమి కలిగిన రైతు కుటుంబాలకు ₹2,000 చొప్పున 3 వాయిదాల్లో ₹6,000 వార్షిక ఆదాయ సహాయం అందించే కేంద్ర పథకం.",
+    "mr": "पीएम-किसान ही केंद्र सरकारची योजना आहे जी देशभरातील सर्व जमीनधारक शेतकरी कुटुंबांना ₹2,000 च्या 3 समान हप्त्यांमध्ये ₹6,000/वर्ष उत्पन्न सहाय्य देते.",
+    "kn": "PM-KISAN ದೇಶದಾದ್ಯಂತ ಭೂ ಹಿಡುವಳಿ ರೈತ ಕುಟುಂಬಗಳಿಗೆ ₹2,000 ರ 3 ಸಮಾನ ಕಂತುಗಳಲ್ಲಿ ₹6,000/ವರ್ಷ ಆದಾಯ ಬೆಂಬಲ ನೀಡುವ ಕೇಂದ್ರ ಯೋಜನೆ.",
+    "ml": "PM-KISAN രാജ്യത്തുടനീളമുള്ള എല്ലാ ഭൂ ഉടമ കർഷക കുടുംബങ്ങൾക്കും ₹2,000 വീതം 3 ഗഡുക്കളായി ₹6,000/വർഷം വരുമാന സഹായം നൽകുന്ന കേന്ദ്ര പദ്ധതി."
+  },
+  "shortDescription": {
+    "en": "₹6,000/year income support for farmers in 3 installments",
+    "hi": "किसानों को 3 किस्तों में ₹6,000/वर्ष आय सहायता",
+    "ta": "விவசாயிகளுக்கு 3 தவணைகளில் ₹6,000/வருடம் வருமான உதவி",
+    "bn": "কৃষকদের জন্য ₹৬,০০০/বছর আয় সহায়তা ৩ কিস্তিতে",
+    "te": "రైతులకు 3 వాయిదాల్లో ₹6,000/సంవత్సరం ఆదాయ సహాయం",
+    "mr": "शेतकऱ्यांना 3 हप्त्यांमध्ये ₹6,000/वर्ष उत्पन्न सहाय्य",
+    "kn": "ರೈತರಿಗೆ 3 ಕಂತುಗಳಲ್ಲಿ ₹6,000/ವರ್ಷ ಆದಾಯ ಬೆಂಬಲ",
+    "ml": "കർഷകർക്ക് 3 ഗഡുക്കളായി ₹6,000/വർഷം വരുമാന സഹായം"
+  },
+  "category": "agriculture",
+  "ministry": "Ministry of Agriculture and Farmers Welfare",
+  "eligibility": {
+    "description": {
+      "en": "All landholding farmer families with cultivable land, and family annual income less than ₹2,00,000",
+      "hi": "खेती योग्य भूमि वाले सभी भूमिधारक किसान परिवार, और परिवार की वार्षिक आय ₹2,00,000 से कम",
+      "ta": "விவசாய நிலம் உள்ள அனைத்து நில உரிமையாளர் விவசாயி குடும்பங்கள், குடும்ப ஆண்டு வருமானம் ₹2,00,000 க்கும் குறைவு"
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "occupation",
+      "operator": "eq",
+      "value": "farmer"
+    },
+    {
+      "field": "landSize",
+      "operator": "gt",
+      "value": 0,
+      "unit": "acres"
+    },
+    {
+      "field": "landSize",
+      "operator": "lte",
+      "value": 5,
+      "unit": "acres"
+    },
+    {
+      "field": "annualIncome",
+      "operator": "lte",
+      "value": 200000
+    }
+  ],
+  "benefits": {
+    "amount": 6000,
+    "description": {
+      "en": "₹6,000 per year in 3 installments of ₹2,000 each, directly to bank account",
+      "hi": "₹6,000 प्रति वर्ष, ₹2,000 की 3 किस्तों में, सीधे बैंक खाते में",
+      "ta": "₹6,000 ஆண்டுக்கு, ₹2,000 மூன்று தவணைகளில், நேரடியாக வங்கி கணக்கில்",
+      "bn": "কৃষকদের জন্য ₹৬,০০০/বছর আয় সহায়তা ৩ কিস্তিতে",
+      "te": "రైతులకు 3 వాయిదాల్లో ₹6,000/సంవత్సరం ఆదాయ సహాయం",
+      "mr": "शेतकऱ्यांना 3 हप्त्यांमध्ये ₹6,000/वर्ष उत्पन्न सहाय्य",
+      "kn": "ರೈತರಿಗೆ 3 ಕಂತುಗಳಲ್ಲಿ ₹6,000/ವರ್ಷ ಆದಾಯ ಬೆಂಬಲ",
+      "ml": "കർഷകർക്ക് 3 ഗഡുക്കളായി ₹6,000/വർഷം വരുമാന സഹായം"
+    },
+    "frequency": "annual"
+  },
+  "requiredDocuments": [
+    {
+      "id": "aadhaar",
+      "name": {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "ta": "ஆதார் அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "landRecord",
+      "name": {
+        "en": "Land Record (Khatauni/7-12)",
+        "hi": "भूमि रिकॉर्ड (खतौनी/7-12)",
+        "ta": "நில ஆவணம்"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "bankPassbook",
+      "name": {
+        "en": "Bank Passbook",
+        "hi": "बैंक पासबुक",
+        "ta": "வங்கி பாஸ்புக்"
+      },
+      "mandatory": true
+    }
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "type": "name",
+      "question": {
+        "en": "What is your full name?",
+        "hi": "आपका पूरा नाम क्या है?",
+        "ta": "உங்கள் முழு பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "fatherName",
+      "type": "name",
+      "question": {
+        "en": "What is your father's name?",
+        "hi": "आपके पिता का नाम क्या है?",
+        "ta": "உங்கள் தந்தையின் பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "aadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "What is your 12-digit Aadhaar number?",
+        "hi": "आपका 12 अंकों का आधार नंबर क्या है?",
+        "ta": "உங்கள் 12 இலக்க ஆதார் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "What is your mobile number?",
+        "hi": "आपका मोबाइल नंबर क्या है?",
+        "ta": "உங்கள் மொபைல் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state do you live in?",
+        "hi": "आप किस राज्य में रहते हैं?",
+        "ta": "நீங்கள் எந்த மாநிலத்தில் வசிக்கிறீர்கள்?"
+      },
+      "required": true
+    },
+    {
+      "id": "district",
+      "type": "text",
+      "question": {
+        "en": "Which district?",
+        "hi": "कौन सा जिला?",
+        "ta": "எந்த மாவட்டம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "village",
+      "type": "text",
+      "question": {
+        "en": "What is your village name?",
+        "hi": "आपके गाँव का नाम क्या है?",
+        "ta": "உங்கள் கிராமத்தின் பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "landSize",
+      "type": "land_size",
+      "question": {
+        "en": "How much land do you own (in acres)?",
+        "hi": "आपके पास कितनी जमीन है (एकड़ में)?",
+        "ta": "உங்களிடம் எவ்வளவு நிலம் உள்ளது (ஏக்கரில்)?"
+      },
+      "required": true
+    },
+    {
+      "id": "bankAccount",
+      "type": "bank_account",
+      "question": {
+        "en": "What is your bank account number?",
+        "hi": "आपका बैंक खाता नंबर क्या है?",
+        "ta": "உங்கள் வங்கி கணக்கு எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "ifsc",
+      "type": "ifsc",
+      "question": {
+        "en": "What is your bank IFSC code?",
+        "hi": "आपका बैंक IFSC कोड क्या है?",
+        "ta": "உங்கள் வங்கி IFSC குறியீடு என்ன?"
+      },
+      "required": true
+    }
+  ],
+  "deadline": "2026-03-31",
+  "isActive": true
+}

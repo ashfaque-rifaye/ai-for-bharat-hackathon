@@ -1,0 +1,181 @@
+{
+  "schemeId": "AYUSHMAN-BHARAT",
+  "name": {
+    "en": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana",
+    "hi": "आयुष्मान भारत - प्रधानमंत्री जन आरोग्य योजना",
+    "ta": "ஆயுஷ்மான் பாரத் - பிரதமர் மக்கள் ஆரோக்கிய திட்டம்",
+    "bn": "আয়ুষ্মান ভারত",
+    "te": "ఆయుష్మాన్ భారత్",
+    "mr": "आयुष्मान भारत",
+    "kn": "ಆಯುಷ್ಮಾನ್ ಭಾರತ್",
+    "ml": "ആയുഷ്മാൻ ഭാരത്"
+  },
+  "description": {
+    "en": "Ayushman Bharat PM-JAY is the world's largest health insurance scheme providing health coverage of ₹5 lakh per family per year for secondary and tertiary hospitalization. It covers over 50 crore beneficiaries from economically vulnerable families.",
+    "hi": "आयुष्मान भारत PM-JAY दुनिया की सबसे बड़ी स्वास्थ्य बीमा योजना है जो प्रति परिवार प्रति वर्ष ₹5 लाख तक का स्वास्थ्य कवरेज प्रदान करती है। यह आर्थिक रूप से कमजोर परिवारों के 50 करोड़ से अधिक लाभार्थियों को कवर करती है।",
+    "ta": "ஆயுஷ்மான் பாரத் PM-JAY உலகின் மிகப்பெரிய சுகாதார காப்பீட்டு திட்டமாகும், இது ஒரு குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் வரை சுகாதார பாதுகாப்பை வழங்குகிறது.",
+    "bn": "আয়ুষ্মান ভারত বিশ্বের বৃহত্তম স্বাস্থ্য বীমা প্রকল্প, যা ১০ কোটিরও বেশি দরিদ্র পরিবারকে গৌণ ও তৃতীয় পর্যায়ের হাসপাতালে ভর্তির জন্য প্রতি পরিবার প্রতি বছর ₹৫ লাখ কভারেজ প্রদান করে।",
+    "te": "ఆయుష్మాన్ భారత్ ప్రపంచంలోనే అతిపెద్ద ఆరోగ్య బీమా పథకం, 10 కోట్లకు పైగా పేద కుటుంబాలకు ద్వితీయ మరియు తృతీయ ఆసుపత్రి చికిత్సకు ₹5 లక్షల వార్షిక కవరేజ్ అందిస్తుంది.",
+    "mr": "आयुष्मान भारत हा जगातील सर्वात मोठा आरोग्य विमा कार्यक्रम आहे, जो 10 कोटीहून अधिक गरीब कुटुंबांना दुय्यम आणि तृतीयक रुग्णालयात भरती होण्यासाठी ₹5 लाख वार्षिक संरक्षण देतो.",
+    "kn": "ಆಯುಷ್ಮಾನ್ ಭಾರತ್ ವಿಶ್ವದ ಅತಿದೊಡ್ಡ ಆರೋಗ್ಯ ವಿಮೆ ಯೋಜನೆಯಾಗಿದ್ದು, 10 ಕೋಟಿಗೂ ಹೆಚ್ಚು ಬಡ ಕುಟುಂಬಗಳಿಗೆ ₹5 ಲಕ್ಷ ವಾರ್ಷಿಕ ಆಸ್ಪತ್ರೆ ಕವರೇಜ್ ಒದಗಿಸುತ್ತದೆ.",
+    "ml": "ആയുഷ്മാൻ ഭാരത് ലോകത്തിലെ ഏറ്റവും വലിയ ആരോഗ്യ ഇൻഷുറൻസ് പദ്ധതിയാണ്, 10 കോടിയിലധികം ദരിദ്ര കുടുംബങ്ങൾക്ക് ₹5 ലക്ഷം വാർഷിക ആശുപത്രി കവറേജ് നൽകുന്നു."
+  },
+  "shortDescription": {
+    "en": "₹5 lakh health insurance per family per year — cashless treatment",
+    "hi": "प्रति परिवार प्रति वर्ष ₹5 लाख स्वास्थ्य बीमा — कैशलेस इलाज",
+    "ta": "ஒரு குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் சுகாதார காப்பீடு — பணமில்லா சிகிச்சை",
+    "bn": "₹৫ লাখ/পরিবার/বছর স্বাস্থ্য বীমা কভারেজ",
+    "te": "₹5 లక్షలు/కుటుంబం/సంవత్సరం ఆరోగ్య బీమా కవరేజ్",
+    "mr": "₹5 लाख/कुटुंब/वर्ष आरोग्य विमा संरक्षण",
+    "kn": "₹5 ಲಕ್ಷ/ಕುಟುಂಬ/ವರ್ಷ ಆರೋಗ್ಯ ವಿಮೆ ಕವರೇಜ್",
+    "ml": "₹5 ലക്ഷം/കുടുംബം/വർഷം ആരോഗ്യ ഇൻഷുറൻസ് കവറേജ്"
+  },
+  "category": "healthcare",
+  "ministry": "Ministry of Health and Family Welfare",
+  "eligibility": {
+    "description": {
+      "en": "Families identified in SECC-2011 database, or covered under any category of BPL, including rural and urban poor",
+      "hi": "SECC-2011 डेटाबेस में पहचाने गए परिवार, या बीपीएल की किसी भी श्रेणी में आने वाले, ग्रामीण और शहरी गरीब सहित",
+      "ta": "SECC-2011 தரவுத்தளத்தில் அடையாளம் காணப்பட்ட குடும்பங்கள், கிராமப்புற மற்றும் நகர்ப்புற ஏழைகள் உட்பட"
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "bplCategory",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "annualIncome",
+      "operator": "lte",
+      "value": 200000
+    }
+  ],
+  "benefits": {
+    "amount": 500000,
+    "description": {
+      "en": "₹5 lakh per family per year for hospitalization — cashless and paperless at empanelled hospitals",
+      "hi": "अस्पताल में भर्ती के लिए प्रति परिवार प्रति वर्ष ₹5 लाख — सूचीबद्ध अस्पतालों में कैशलेस और पेपरलेस",
+      "ta": "மருத்துவமனையில் சேர்க்கைக்கு ஒரு குடும்பத்திற்கு ஆண்டுக்கு ₹5 லட்சம் — பட்டியலிடப்பட்ட மருத்துவமனைகளில் பணமில்லா",
+      "bn": "₹৫ লাখ/পরিবার/বছর স্বাস্থ্য বীমা কভারেজ",
+      "te": "₹5 లక్షలు/కుటుంబం/సంవత్సరం ఆరోగ్య బీమా కవరేజ్",
+      "mr": "₹5 लाख/कुटुंब/वर्ष आरोग्य विमा संरक्षण",
+      "kn": "₹5 ಲಕ್ಷ/ಕುಟುಂಬ/ವರ್ಷ ಆರೋಗ್ಯ ವಿಮೆ ಕವರೇಜ್",
+      "ml": "₹5 ലക്ഷം/കുടുംബം/വർഷം ആരോഗ്യ ഇൻഷുറൻസ് കവറേജ്"
+    },
+    "frequency": "annual"
+  },
+  "requiredDocuments": [
+    {
+      "id": "aadhaar",
+      "name": {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "ta": "ஆதார் அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "rationCard",
+      "name": {
+        "en": "Ration Card / BPL Card",
+        "hi": "राशन कार्ड / बीपीएल कार्ड",
+        "ta": "ரேஷன் கார்டு / வறுமைக் கோட்டு அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "familyId",
+      "name": {
+        "en": "Family ID / SECC Data",
+        "hi": "फैमिली आईडी / SECC डेटा",
+        "ta": "குடும்ப அடையாளம் / SECC தரவு"
+      },
+      "mandatory": false
+    }
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "type": "name",
+      "question": {
+        "en": "What is the family head's full name?",
+        "hi": "परिवार के मुखिया का पूरा नाम क्या है?",
+        "ta": "குடும்பத் தலைவரின் முழு பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "aadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "Aadhaar number?",
+        "hi": "आधार नंबर?",
+        "ta": "ஆதார் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "Mobile number?",
+        "hi": "मोबाइल नंबर?",
+        "ta": "மொபைல் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state?",
+        "hi": "कौन सा राज्य?",
+        "ta": "எந்த மாநிலம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "district",
+      "type": "text",
+      "question": {
+        "en": "Which district?",
+        "hi": "कौन सा जिला?",
+        "ta": "எந்த மாவட்டம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "familyMembers",
+      "type": "text",
+      "question": {
+        "en": "How many members in your family?",
+        "hi": "आपके परिवार में कितने सदस्य हैं?",
+        "ta": "உங்கள் குடும்பத்தில் எத்தனை உறுப்பினர்கள்?"
+      },
+      "required": true
+    },
+    {
+      "id": "annualIncome",
+      "type": "amount",
+      "question": {
+        "en": "What is your family's annual income?",
+        "hi": "आपके परिवार की वार्षिक आय कितनी है?",
+        "ta": "உங்கள் குடும்பத்தின் ஆண்டு வருமானம் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "rationCardNumber",
+      "type": "text",
+      "question": {
+        "en": "What is your ration card number?",
+        "hi": "आपका राशन कार्ड नंबर क्या है?",
+        "ta": "உங்கள் ரேஷன் கார்டு எண் என்ன?"
+      },
+      "required": true
+    }
+  ],
+  "deadline": null,
+  "isActive": true
+}

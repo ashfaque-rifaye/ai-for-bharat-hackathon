@@ -1,0 +1,172 @@
+{
+  "schemeId": "PM-GARIB-KALYAN-ANNA",
+  "name": {
+    "en": "Pradhan Mantri Garib Kalyan Anna Yojana",
+    "hi": "प्रधानमंत्री गरीब कल्याण अन्न योजना",
+    "ta": "பிரதமர் ஏழை நல உணவு திட்டம்",
+    "bn": "প্রধানমন্ত্রী গরীব কল্যাণ অন্ন যোজনা",
+    "te": "ప్రధానమంత్రి గరీబ్ కళ్యాణ్ అన్న యోజన",
+    "mr": "प्रधानमंत्री गरीब कल्याण अन्न योजना",
+    "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಗರೀಬ್ ಕಲ್ಯಾಣ್ ಅನ್ನ ಯೋಜನೆ",
+    "ml": "പ്രധാനമന്ത്രി ഗരീബ് കല്യാൺ അന്ന യോജന"
+  },
+  "description": {
+    "en": "PM Garib Kalyan Anna Yojana provides 5 kg of free food grains per person per month to approximately 80 crore beneficiaries covered under the National Food Security Act. This includes wheat, rice, and coarse grains distributed through Fair Price Shops.",
+    "hi": "पीएम गरीब कल्याण अन्न योजना राष्ट्रीय खाद्य सुरक्षा अधिनियम के तहत आने वाले लगभग 80 करोड़ लाभार्थियों को प्रति व्यक्ति प्रति माह 5 किलो मुफ्त अनाज प्रदान करती है।",
+    "ta": "பிரதமர் ஏழை நல உணவு திட்டம் தேசிய உணவு பாதுகாப்பு சட்டத்தின் கீழ் வரும் சுமார் 80 கோடி பயனாளிகளுக்கு ஒருவருக்கு மாதத்திற்கு 5 கிலோ இலவச உணவு தானியங்களை வழங்குகிறது.",
+    "bn": "প্রধানমন্ত্রী গরীব কল্যাণ অন্ন যোজনা ৮০ কোটিরও বেশি সুবিধাভোগীকে মাথাপিছু ৫ কেজি বিনামূল্যে খাদ্যশস্য (গম/চাল) প্রদান করে।",
+    "te": "PM-GKAY 80 కోట్లకు పైగా లబ్ధిదారులకు తలసరి 5 కేజీల ఉచిత ఆహార ధాన్యాలు (గోధుమ/బియ్యం) అందిస్తుంది.",
+    "mr": "PM-GKAY 80 कोटीहून अधिक लाभार्थ्यांना दरडोई 5 किलो मोफत अन्नधान्य (गहू/तांदूळ) देते.",
+    "kn": "PM-GKAY 80 ಕೋಟಿಗೂ ಹೆಚ್ಚು ಫಲಾನುಭಕ್ಕೆ ತಲಾ 5 ಕೆಜಿ ಉಚಿತ ಆಹಾರ ಧಾನ್ಯ (ಗೋಧಿ/ಅಕ್ಕಿ) ಒದಗಿಸುತ್ತದೆ.",
+    "ml": "PM-GKAY 80 കോടിയിലധികം ഗുണഭോക്താക്കൾക്ക് ആളൊന്നിന് 5 കിലോ സൗജന്യ ഭക്ഷ്യധാന്യം (ഗോതമ്പ്/അരി) നൽകുന്നു."
+  },
+  "shortDescription": {
+    "en": "5 kg free food grains per person per month via ration card",
+    "hi": "राशन कार्ड द्वारा प्रति व्यक्ति प्रति माह 5 किलो मुफ्त अनाज",
+    "ta": "ரேஷன் கார்டு மூலம் ஒருவருக்கு மாதம் 5 கிலோ இலவச உணவு தானியம்",
+    "bn": "দরিদ্র পরিবারের জন্য মাথাপিছু ৫ কেজি বিনামূল্যে খাদ্যশস্য",
+    "te": "పేద కుటుంబాలకు తలసరి 5 కేజీల ఉచిత ఆహార ధాన్యాలు",
+    "mr": "गरीब कुटुंबांना दरडोई 5 किलो मोफत अन्नधान्य",
+    "kn": "ಬಡ ಕುಟುಂಬಗಳಿಗೆ ತಲಾ 5 ಕೆಜಿ ಉಚಿತ ಆಹಾರ ಧಾನ್ಯ",
+    "ml": "ദരിദ്ര കുടുംബങ്ങൾക്ക് ആളൊന്നിന് 5 കിലോ സൗജന്യ ഭക്ഷ്യധാന്യം"
+  },
+  "category": "food",
+  "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+  "eligibility": {
+    "description": {
+      "en": "Families with BPL/AAY/PHH ration cards under the National Food Security Act",
+      "hi": "राष्ट्रीय खाद्य सुरक्षा अधिनियम के तहत बीपीएल/AAY/PHH राशन कार्ड वाले परिवार",
+      "ta": "தேசிய உணவு பாதுகாப்பு சட்டத்தின் கீழ் BPL/AAY/PHH ரேஷன் கார்டு உள்ள குடும்பங்கள்"
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "hasRationCard",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "bplCategory",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "benefits": {
+    "amount": null,
+    "description": {
+      "en": "5 kg free food grains (wheat/rice) per person per month from Fair Price Shops",
+      "hi": "उचित मूल्य दुकानों से प्रति व्यक्ति प्रति माह 5 किलो मुफ्त अनाज (गेहूं/चावल)",
+      "ta": "நியாய விலை கடைகளில் இருந்து ஒருவருக்கு மாதம் 5 கிலோ இலவச உணவு தானியம் (கோதுமை/அரிசி)",
+      "bn": "দরিদ্র পরিবারের জন্য মাথাপিছু ৫ কেজি বিনামূল্যে খাদ্যশস্য",
+      "te": "పేద కుటుంబాలకు తలసరి 5 కేజీల ఉచిత ఆహార ధాన్యాలు",
+      "mr": "गरीब कुटुंबांना दरडोई 5 किलो मोफत अन्नधान्य",
+      "kn": "ಬಡ ಕುಟುಂಬಗಳಿಗೆ ತಲಾ 5 ಕೆಜಿ ಉಚಿತ ಆಹಾರ ಧಾನ್ಯ",
+      "ml": "ദരിദ്ര കുടുംബങ്ങൾക്ക് ആളൊന്നിന് 5 കിലോ സൗജന്യ ഭക്ഷ്യധാന്യം"
+    },
+    "frequency": "monthly"
+  },
+  "requiredDocuments": [
+    {
+      "id": "rationCard",
+      "name": {
+        "en": "BPL/AAY Ration Card",
+        "hi": "बीपीएल/AAY राशन कार्ड",
+        "ta": "BPL/AAY ரேஷன் கார்டு"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "aadhaar",
+      "name": {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "ta": "ஆதார் அட்டை"
+      },
+      "mandatory": true
+    }
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "type": "name",
+      "question": {
+        "en": "What is the ration card holder's full name?",
+        "hi": "राशन कार्ड धारक का पूरा नाम?",
+        "ta": "ரேஷன் கார்டு வைத்திருப்பவரின் முழு பெயர்?"
+      },
+      "required": true
+    },
+    {
+      "id": "aadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "Aadhaar number?",
+        "hi": "आधार नंबर?",
+        "ta": "ஆதார் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "Mobile number?",
+        "hi": "मोबाइल नंबर?",
+        "ta": "மொபைல் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "rationCardNumber",
+      "type": "text",
+      "question": {
+        "en": "What is your ration card number?",
+        "hi": "आपका राशन कार्ड नंबर क्या है?",
+        "ta": "உங்கள் ரேஷன் கார்டு எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "rationCardType",
+      "type": "text",
+      "question": {
+        "en": "What type of ration card? (BPL/AAY/PHH)",
+        "hi": "किस प्रकार का राशन कार्ड? (BPL/AAY/PHH)",
+        "ta": "எந்த வகை ரேஷன் கார்டு? (BPL/AAY/PHH)"
+      },
+      "required": true
+    },
+    {
+      "id": "familyMembers",
+      "type": "text",
+      "question": {
+        "en": "How many family members on the ration card?",
+        "hi": "राशन कार्ड में कितने परिवार के सदस्य हैं?",
+        "ta": "ரேஷன் கார்டில் எத்தனை குடும்ப உறுப்பினர்கள்?"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state?",
+        "hi": "कौन सा राज्य?",
+        "ta": "எந்த மாநிலம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "district",
+      "type": "text",
+      "question": {
+        "en": "Which district?",
+        "hi": "कौन सा जिला?",
+        "ta": "எந்த மாவட்டம்?"
+      },
+      "required": true
+    }
+  ],
+  "deadline": "2026-12-31",
+  "isActive": true
+}

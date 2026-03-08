@@ -1,0 +1,206 @@
+{
+  "schemeId": "PM-UJJWALA",
+  "name": {
+    "en": "Pradhan Mantri Ujjwala Yojana",
+    "hi": "प्रधानमंत्री उज्ज्वला योजना",
+    "ta": "பிரதமர் உஜ்வலா திட்டம்",
+    "bn": "প্রধানমন্ত্রী উজ্জ্বলা যোজনা",
+    "te": "ప్రధానమంత్రి ఉజ్వల యోజన",
+    "mr": "प्रधानमंत्री उज्ज्वला योजना",
+    "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ",
+    "ml": "പ്രധാനമന്ത്രി ഉജ്ജ്വല യോജന"
+  },
+  "description": {
+    "en": "PM Ujjwala Yojana provides free LPG connections to women from Below Poverty Line (BPL) households. It aims to replace unclean cooking fuels like firewood, coal, and cow dung with clean LPG fuel, improving health and quality of life for rural women.",
+    "hi": "पीएम उज्ज्वला योजना गरीबी रेखा से नीचे के परिवारों की महिलाओं को मुफ्त एलपीजी कनेक्शन प्रदान करती है। इसका उद्देश्य लकड़ी, कोयला जैसे अशुद्ध ईंधन को स्वच्छ एलपीजी से बदलना है।",
+    "ta": "பிரதமர் உஜ்வலா திட்டம் வறுமைக் கோட்டுக்கு கீழ் உள்ள குடும்பங்களின் பெண்களுக்கு இலவச எல்பிஜி இணைப்புகளை வழங்குகிறது.",
+    "bn": "প্রধানমন্ত্রী উজ্জ্বলা যোজনা বিপিএল পরিবারের মহিলাদের বিনামূল্যে এলপিজি সংযোগ প্রদান করে, যাতে তারা পরিষ্কার রান্নার জ্বালানি ব্যবহার করতে পারেন এবং ধোঁয়াজনিত স্বাস্থ্য সমস্যা কমে।",
+    "te": "ప్రధానమంత్రి ఉజ్వల యోజన BPL కుటుంబాల మహిళలకు ఉచిత LPG కనెక్షన్ అందించి, పొగ సంబంధిత ఆరోగ్య సమస్యలను తగ్గించి, శుభ్రమైన వంట ఇంధనం అందిస్తుంది.",
+    "mr": "प्रधानमंत्री उज्ज्वला योजना बीपीएल कुटुंबातील महिलांना मोफत एलपीजी कनेक्शन देते, ज्यामुळे स्वच्छ इंधन मिळते आणि धुरामुळे होणारे आरोग्य धोके कमी होतात.",
+    "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ BPL ಕುಟುಂಬಗಳ ಮಹಿಳೆಯರಿಗೆ ಉಚಿತ LPG ಸಂಪರ್ಕ ಒದಗಿಸುತ್ತದೆ, ಶುಚಿ ಅಡುಗೆ ಇಂಧನ ಮತ್ತು ಹೊಗೆ ಸಂಬಂಧಿತ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.",
+    "ml": "പ്രധാനമന്ത്രി ഉജ്ജ്വല യോജന BPL കുടുംബങ്ങളിലെ സ്ത്രീകൾക്ക് സൗജന്യ LPG കണക്ഷൻ നൽകുന്നു, ശുദ്ധമായ പാചക ഇന്ധനം ലഭ്യമാക്കുകയും പുക സംബന്ധമായ ആരോഗ്യ പ്രശ്നങ്ങൾ കുറയ്ക്കുകയും ചെയ്യുന്നു."
+  },
+  "shortDescription": {
+    "en": "Free LPG gas connection for BPL women",
+    "hi": "बीपीएल महिलाओं को मुफ्त एलपीजी गैस कनेक्शन",
+    "ta": "வறுமைக் கோட்டு பெண்களுக்கு இலவச எல்பிஜி இணைப்பு",
+    "bn": "বিপিএল পরিবারের মহিলাদের জন্য বিনামূল্যে এলপিজি সংযোগ",
+    "te": "BPL కుటుంబాల మహిళలకు ఉచిత LPG కనెక్షన్",
+    "mr": "बीपीएल कुटुंबातील महिलांना मोफत एलपीजी कनेक्शन",
+    "kn": "BPL ಕುಟುಂಬಗಳ ಮಹಿಳೆಯರಿಗೆ ಉಚಿತ LPG ಸಂಪರ್ಕ",
+    "ml": "BPL കുടുംബങ്ങളിലെ സ്ത്രീകൾക്ക് സൗജന്യ LPG കണക്ഷൻ"
+  },
+  "category": "energy",
+  "ministry": "Ministry of Petroleum and Natural Gas",
+  "eligibility": {
+    "description": {
+      "en": "Women from BPL households who don't have an existing LPG connection in the household",
+      "hi": "बीपीएल परिवारों की महिलाएं जिनके घर में पहले से एलपीजी कनेक्शन नहीं है",
+      "ta": "ஏற்கனவே எல்பிஜி இணைப்பு இல்லாத வறுமைக் கோட்டு குடும்பங்களின் பெண்கள்"
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "gender",
+      "operator": "eq",
+      "value": "female"
+    },
+    {
+      "field": "bplCategory",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "hasLPGConnection",
+      "operator": "eq",
+      "value": false
+    }
+  ],
+  "benefits": {
+    "amount": 1600,
+    "description": {
+      "en": "Free LPG connection (worth ₹1,600) including cylinder, regulator, and first refill",
+      "hi": "मुफ्त एलपीजी कनेक्शन (₹1,600 मूल्य) जिसमें सिलेंडर, रेगुलेटर और पहली रिफिल शामिल",
+      "ta": "இலவச எல்பிஜி இணைப்பு (₹1,600 மதிப்பு) சிலிண்டர், ரெகுலேட்டர் மற்றும் முதல் ரீஃபில் உட்பட",
+      "bn": "বিপিএল পরিবারের মহিলাদের জন্য বিনামূল্যে এলপিজি সংযোগ",
+      "te": "BPL కుటుంబాల మహిళలకు ఉచిత LPG కనెక్షన్",
+      "mr": "बीपीएल कुटुंबातील महिलांना मोफत एलपीजी कनेक्शन",
+      "kn": "BPL ಕುಟುಂಬಗಳ ಮಹಿಳೆಯರಿಗೆ ಉಚಿತ LPG ಸಂಪರ್ಕ",
+      "ml": "BPL കുടുംബങ്ങളിലെ സ്ത്രീകൾക്ക് സൗജന്യ LPG കണക്ഷൻ"
+    },
+    "frequency": "one-time"
+  },
+  "requiredDocuments": [
+    {
+      "id": "aadhaar",
+      "name": {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "ta": "ஆதார் அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "bplCard",
+      "name": {
+        "en": "BPL Ration Card",
+        "hi": "बीपीएल राशन कार्ड",
+        "ta": "வறுமைக் கோட்டு ரேஷன் கார்டு"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "bankPassbook",
+      "name": {
+        "en": "Bank Passbook",
+        "hi": "बैंक पासबुक",
+        "ta": "வங்கி பாஸ்புக்"
+      },
+      "mandatory": true
+    }
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "type": "name",
+      "question": {
+        "en": "What is the woman applicant's full name?",
+        "hi": "महिला आवेदक का पूरा नाम क्या है?",
+        "ta": "பெண் விண்ணப்பதாரரின் முழு பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "aadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "Aadhaar number?",
+        "hi": "आधार नंबर?",
+        "ta": "ஆதார் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "Mobile number?",
+        "hi": "मोबाइल नंबर?",
+        "ta": "மொபைல் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state?",
+        "hi": "कौन सा राज्य?",
+        "ta": "எந்த மாநிலம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "district",
+      "type": "text",
+      "question": {
+        "en": "Which district?",
+        "hi": "कौन सा जिला?",
+        "ta": "எந்த மாவட்டம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "address",
+      "type": "text",
+      "question": {
+        "en": "Full address?",
+        "hi": "पूरा पता?",
+        "ta": "முழு முகவரி?"
+      },
+      "required": true
+    },
+    {
+      "id": "pincode",
+      "type": "pincode",
+      "question": {
+        "en": "PIN code?",
+        "hi": "पिन कोड?",
+        "ta": "பின் குறியீடு?"
+      },
+      "required": true
+    },
+    {
+      "id": "hasLPG",
+      "type": "text",
+      "question": {
+        "en": "Do you already have an LPG connection at home?",
+        "hi": "क्या आपके घर में पहले से एलपीजी कनेक्शन है?",
+        "ta": "உங்கள் வீட்டில் ஏற்கனவே எல்பிஜி இணைப்பு உள்ளதா?"
+      },
+      "required": true
+    },
+    {
+      "id": "bankAccount",
+      "type": "bank_account",
+      "question": {
+        "en": "Bank account number?",
+        "hi": "बैंक खाता नंबर?",
+        "ta": "வங்கி கணக்கு எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "ifsc",
+      "type": "ifsc",
+      "question": {
+        "en": "Bank IFSC code?",
+        "hi": "बैंक IFSC कोड?",
+        "ta": "வங்கி IFSC குறியீடு?"
+      },
+      "required": true
+    }
+  ],
+  "deadline": null,
+  "isActive": true
+}

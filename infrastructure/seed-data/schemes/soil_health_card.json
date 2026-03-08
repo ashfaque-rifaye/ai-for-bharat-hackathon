@@ -1,0 +1,173 @@
+{
+  "schemeId": "SOIL-HEALTH-CARD",
+  "name": {
+    "en": "Soil Health Card Scheme",
+    "hi": "मृदा स्वास्थ्य कार्ड योजना",
+    "ta": "மண் ஆரோக்கிய அட்டை திட்டம்",
+    "bn": "মৃত্তিকা স্বাস্থ্য কার্ড যোজনা",
+    "te": "నేల ఆరోగ్య కార్డ్ పథకం",
+    "mr": "मृदा आरोग्य पत्रिका योजना",
+    "kn": "ಮಣ್ಣಿನ ಆರೋಗ್ಯ ಕಾರ್ಡ್ ಯೋಜನೆ",
+    "ml": "മണ്ണ് ആരോഗ്യ കാർഡ് പദ്ധതി"
+  },
+  "description": {
+    "en": "The Soil Health Card Scheme provides every farmer with a soil health card that contains crop-wise recommendations of nutrients and fertilizers required for individual farms. It helps farmers improve productivity by using the right balance of nutrients.",
+    "hi": "मृदा स्वास्थ्य कार्ड योजना हर किसान को एक मृदा स्वास्थ्य कार्ड प्रदान करती है जिसमें व्यक्तिगत खेतों के लिए आवश्यक पोषक तत्वों और उर्वरकों की फसलवार सिफारिशें होती हैं।",
+    "ta": "மண் ஆரோக்கிய அட்டை திட்டம் ஒவ்வொரு விவசாயிக்கும் ஒரு மண் ஆரோக்கிய அட்டையை வழங்குகிறது, இதில் தனிப்பட்ட பண்ணைகளுக்குத் தேவையான ஊட்டச்சத்துக்கள் மற்றும் உரங்களின் பயிர் வாரியான பரிந்துரைகள் உள்ளன.",
+    "bn": "মৃত্তিকা স্বাস্থ্য কার্ড যোজনা সমস্ত কৃষকদের মাটি স্বাস্থ্য কার্ড প্রদান করে, যেখানে মাটির পুষ্টি উপাদান এবং সার সুপারিশ থাকে।",
+    "te": "నేల ఆరోగ్య కార్డ్ పథకం రైతులందరికీ నేల ఆరోగ్య కార్డులు అందించి, నేల పోషకాల స్థితి మరియు ఎరువుల సిఫార్సులు తెలియజేస్తుంది.",
+    "mr": "मृदा आरोग्य पत्रिका योजना सर्व शेतकऱ्यांना माती आरोग्य पत्रिका देते, ज्यामध्ये मातीतील पोषक तत्त्वांची स्थिती आणि खत शिफारसी असतात.",
+    "kn": "ಮಣ್ಣಿನ ಆರೋಗ್ಯ ಕಾರ್ಡ್ ಯೋಜನೆ ರೈತರಿಗೆ ಮಣ್ಣಿನ ಆರೋಗ್ಯ ಕಾರ್ಡ್ ನೀಡುತ್ತದೆ, ಇದರಲ್ಲಿ ಮಣ್ಣಿನ ಪೋಷಕಾಂಶ ಮತ್ತು ರಸಗೊಬ್ಬರ ಶಿಫಾರಸುಗಳು ಇರುತ್ತವೆ.",
+    "ml": "മണ്ണ് ആരോഗ്യ കാർഡ് പദ്ധതി കർഷകർക്ക് മണ്ണ് ആരോഗ്യ കാർഡുകൾ നൽകുന്നു, മണ്ണിലെ പോഷക നില, വള ശുപാർശകൾ എന്നിവ ഉൾപ്പെടുന്നു."
+  },
+  "shortDescription": {
+    "en": "Free soil testing and health card for all farmers",
+    "hi": "सभी किसानों के लिए मुफ्त मृदा परीक्षण और स्वास्थ्य कार्ड",
+    "ta": "அனைத்து விவசாயிகளுக்கும் இலவச மண் பரிசோதனை மற்றும் ஆரோக்கிய அட்டை",
+    "bn": "কৃষকদের মাটি পরীক্ষা ও সার সুপারিশ",
+    "te": "రైతులకు నేల పరీక్ష మరియు ఎరువుల సిఫార్సు",
+    "mr": "शेतकऱ्यांसाठी माती परीक्षण व खत शिफारस",
+    "kn": "ರೈತರಿಗೆ ಮಣ್ಣು ಪರೀಕ್ಷೆ ಮತ್ತು ರಸಗೊಬ್ಬರ ಶಿಫಾರಸು",
+    "ml": "കർഷകർക്ക് മണ്ണ് പരിശോധനയും വള ശുപാർശയും"
+  },
+  "category": "agriculture",
+  "ministry": "Ministry of Agriculture and Farmers Welfare",
+  "eligibility": {
+    "description": {
+      "en": "All farmers with agricultural land are eligible for free soil testing",
+      "hi": "कृषि भूमि वाले सभी किसान मुफ्त मृदा परीक्षण के लिए पात्र हैं",
+      "ta": "விவசாய நிலம் உள்ள அனைத்து விவசாயிகளும் இலவச மண் பரிசோதனைக்கு தகுதியானவர்கள்"
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "occupation",
+      "operator": "eq",
+      "value": "farmer"
+    },
+    {
+      "field": "landSize",
+      "operator": "gt",
+      "value": 0,
+      "unit": "acres"
+    }
+  ],
+  "benefits": {
+    "amount": null,
+    "description": {
+      "en": "Free soil testing, personalized nutrient recommendations, improved crop yields",
+      "hi": "मुफ्त मृदा परीक्षण, व्यक्तिगत पोषक तत्व सिफारिशें, बेहतर फसल उपज",
+      "ta": "இலவச மண் பரிசோதனை, தனிப்பயனாக்கப்பட்ட ஊட்டச்சத்து பரிந்துரைகள், மேம்பட்ட பயிர் விளைச்சல்",
+      "bn": "কৃষকদের মাটি পরীক্ষা ও সার সুপারিশ",
+      "te": "రైతులకు నేల పరీక్ష మరియు ఎరువుల సిఫార్సు",
+      "mr": "शेतकऱ्यांसाठी माती परीक्षण व खत शिफारस",
+      "kn": "ರೈತರಿಗೆ ಮಣ್ಣು ಪರೀಕ್ಷೆ ಮತ್ತು ರಸಗೊಬ್ಬರ ಶಿಫಾರಸು",
+      "ml": "കർഷകർക്ക് മണ്ണ് പരിശോധനയും വള ശുപാർശയും"
+    },
+    "frequency": "once-every-2-years"
+  },
+  "requiredDocuments": [
+    {
+      "id": "aadhaar",
+      "name": {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "ta": "ஆதார் அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "landRecord",
+      "name": {
+        "en": "Land Record",
+        "hi": "भूमि रिकॉर्ड",
+        "ta": "நில ஆவணம்"
+      },
+      "mandatory": true
+    }
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "type": "name",
+      "question": {
+        "en": "What is your full name?",
+        "hi": "आपका पूरा नाम क्या है?",
+        "ta": "உங்கள் முழு பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "aadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "What is your Aadhaar number?",
+        "hi": "आपका आधार नंबर क्या है?",
+        "ta": "உங்கள் ஆதார் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "What is your mobile number?",
+        "hi": "आपका मोबाइल नंबर क्या है?",
+        "ta": "உங்கள் மொபைல் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state?",
+        "hi": "कौन सा राज्य?",
+        "ta": "எந்த மாநிலம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "district",
+      "type": "text",
+      "question": {
+        "en": "Which district?",
+        "hi": "कौन सा जिला?",
+        "ta": "எந்த மாவட்டம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "village",
+      "type": "text",
+      "question": {
+        "en": "Village name?",
+        "hi": "गाँव का नाम?",
+        "ta": "கிராமத்தின் பெயர்?"
+      },
+      "required": true
+    },
+    {
+      "id": "landSize",
+      "type": "land_size",
+      "question": {
+        "en": "How much land do you cultivate (in acres)?",
+        "hi": "आप कितनी भूमि पर खेती करते हैं (एकड़ में)?",
+        "ta": "நீங்கள் எவ்வளவு நிலத்தில் விவசாயம் செய்கிறீர்கள் (ஏக்கரில்)?"
+      },
+      "required": true
+    },
+    {
+      "id": "cropType",
+      "type": "text",
+      "question": {
+        "en": "What crops do you grow mainly?",
+        "hi": "आप मुख्य रूप से कौन सी फसल उगाते हैं?",
+        "ta": "நீங்கள் முக்கியமாக எந்த பயிர்களை வளர்க்கிறீர்கள்?"
+      },
+      "required": true
+    }
+  ],
+  "deadline": null,
+  "isActive": true
+}

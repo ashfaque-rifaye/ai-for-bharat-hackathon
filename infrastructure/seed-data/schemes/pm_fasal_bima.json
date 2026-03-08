@@ -1,0 +1,210 @@
+{
+  "schemeId": "PM-FASAL-BIMA",
+  "name": {
+    "en": "Pradhan Mantri Fasal Bima Yojana",
+    "hi": "प्रधानमंत्री फसल बीमा योजना",
+    "ta": "பிரதமர் பயிர் காப்பீடு திட்டம்",
+    "bn": "প্রধানমন্ত্রী ফসল বীমা যোজনা",
+    "te": "ప్రధానమంత్రి ఫసల్ బీమా యోజన",
+    "mr": "प्रधानमंत्री फसल (पीक) विमा योजना",
+    "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಫಸಲ್ ಬೀಮಾ ಯೋಜನೆ",
+    "ml": "പ്രധാനമന്ത്രി ഫസൽ ബീമ യോജന"
+  },
+  "description": {
+    "en": "PMFBY provides comprehensive crop insurance coverage against crop loss due to natural calamities, pests, and diseases. Farmers pay a small premium (2% for Kharif, 1.5% for Rabi) and the government subsidizes the rest. Claims are settled based on crop cutting experiments.",
+    "hi": "PMFBY प्राकृतिक आपदाओं, कीटों और बीमारियों के कारण फसल हानि के खिलाफ व्यापक फसल बीमा कवरेज प्रदान करती है। किसान एक छोटा प्रीमियम (खरीफ के लिए 2%, रबी के लिए 1.5%) देते हैं।",
+    "ta": "PMFBY இயற்கை பேரிடர்கள், பூச்சிகள் மற்றும் நோய்களால் ஏற்படும் பயிர் இழப்புக்கு எதிராக விரிவான பயிர் காப்பீட்டு பாதுகாப்பை வழங்குகிறது.",
+    "bn": "প্রধানমন্ত্রী ফসল বীমা যোজনা প্রাকৃতিক দুর্যোগ, কীটপতঙ্গ এবং রোগের কারণে ফসলের ক্ষতি থেকে কৃষকদের রক্ষা করার জন্য সাশ্রয়ী মূল্যে ব্যাপক ফসল বীমা প্রদান করে।",
+    "te": "PM ఫసల్ బీమా యోజన ప్రకృతి విపత్తులు, పురుగులు మరియు వ్యాధుల వల్ల పంట నష్టం నుండి రైతులను రక్షించడానికి తక్కువ ప్రీమియంతో సమగ్ర పంట బీమా అందిస్తుంది.",
+    "mr": "PM फसल विमा योजना नैसर्गिक आपत्ती, कीटक आणि रोगांमुळे पिकांच्या नुकसानापासून शेतकऱ्यांचे संरक्षण करण्यासाठी परवडणारा सर्वसमावेशक पीक विमा देते.",
+    "kn": "PM ಫಸಲ್ ಬೀಮಾ ಯೋಜನೆ ನೈಸರ್ಗಿಕ ವಿಕೋಪ, ಕೀಟ ಮತ್ತು ರೋಗಗಳಿಂದ ಬೆಳೆ ನಷ್ಟದಿಂದ ರೈತರನ್ನು ರಕ್ಷಿಸಲು ಕೈಗೆಟುಕುವ ಸಮಗ್ರ ಬೆಳೆ ವಿಮೆ ನೀಡುತ್ತದೆ.",
+    "ml": "PM ഫസൽ ബീമ യോജന പ്രകൃതി ദുരന്തങ്ങൾ, കീടങ്ങൾ, രോഗങ്ങൾ എന്നിവ കാരണം വിള നഷ്ടത്തിൽ നിന്ന് കർഷകരെ സംരക്ഷിക്കാൻ താങ്ങാവുന്ന സമഗ്ര വിള ഇൻഷുറൻസ് നൽകുന്നു."
+  },
+  "shortDescription": {
+    "en": "Crop insurance at just 2% premium — covers natural calamities",
+    "hi": "सिर्फ 2% प्रीमियम पर फसल बीमा — प्राकृतिक आपदाओं से सुरक्षा",
+    "ta": "வெறும் 2% பிரீமியத்தில் பயிர் காப்பீடு — இயற்கை பேரிடர்களுக்கு பாதுகாப்பு",
+    "bn": "কৃষকদের ফসলের জন্য সাশ্রয়ী বীমা সুরক্ষা",
+    "te": "రైతుల పంటలకు తక్కువ ప్రీమియం బీమా కవరేజ్",
+    "mr": "शेतकऱ्यांच्या पिकांसाठी परवडणारा विमा संरक्षण",
+    "kn": "ರೈತರ ಬೆಳೆಗಳಿಗೆ ಕೈಗೆಟುಕುವ ವಿಮೆ ಕವರೇಜ್",
+    "ml": "കർഷകരുടെ വിളകൾക്ക് താങ്ങാവുന്ന ഇൻഷുറൻസ് കവറേജ്"
+  },
+  "category": "insurance",
+  "ministry": "Ministry of Agriculture and Farmers Welfare",
+  "eligibility": {
+    "description": {
+      "en": "All farmers growing notified crops in notified areas, including sharecroppers and tenant farmers",
+      "hi": "अधिसूचित क्षेत्रों में अधिसूचित फसलें उगाने वाले सभी किसान, बटाईदार और किरायेदार किसान सहित",
+      "ta": "அறிவிக்கப்பட்ட பகுதிகளில் அறிவிக்கப்பட்ட பயிர்களை வளர்க்கும் அனைத்து விவசாயிகளும்"
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "occupation",
+      "operator": "eq",
+      "value": "farmer"
+    },
+    {
+      "field": "hasCrop",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "benefits": {
+    "amount": null,
+    "description": {
+      "en": "Full crop loss coverage. Premium: 2% for Kharif, 1.5% for Rabi crops. Government pays rest.",
+      "hi": "पूर्ण फसल हानि कवरेज। प्रीमियम: खरीफ के लिए 2%, रबी के लिए 1.5%। बाकी सरकार देती है।",
+      "ta": "முழு பயிர் இழப்பு பாதுகாப்பு. பிரீமியம்: காரிஃப் 2%, ரபி 1.5%. மீதமுள்ளதை அரசு செலுத்தும்.",
+      "bn": "কৃষকদের ফসলের জন্য সাশ্রয়ী বীমা সুরক্ষা",
+      "te": "రైతుల పంటలకు తక్కువ ప్రీమియం బీమా కవరేజ్",
+      "mr": "शेतकऱ्यांच्या पिकांसाठी परवडणारा विमा संरक्षण",
+      "kn": "ರೈತರ ಬೆಳೆಗಳಿಗೆ ಕೈಗೆಟುಕುವ ವಿಮೆ ಕವರೇಜ್",
+      "ml": "കർഷകരുടെ വിളകൾക്ക് താങ്ങാവുന്ന ഇൻഷുറൻസ് കവറേജ്"
+    },
+    "frequency": "per-season"
+  },
+  "requiredDocuments": [
+    {
+      "id": "aadhaar",
+      "name": {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "ta": "ஆதார் அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "landRecord",
+      "name": {
+        "en": "Land Record / Lease Agreement",
+        "hi": "भूमि रिकॉर्ड / पट्टा समझौता",
+        "ta": "நில ஆவணம் / குத்தகை ஒப்பந்தம்"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "sowingCertificate",
+      "name": {
+        "en": "Sowing Certificate",
+        "hi": "बुआई प्रमाण पत्र",
+        "ta": "விதைப்பு சான்றிதழ்"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "bankPassbook",
+      "name": {
+        "en": "Bank Passbook",
+        "hi": "बैंक पासबुक",
+        "ta": "வங்கி பாஸ்புக்"
+      },
+      "mandatory": true
+    }
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "type": "name",
+      "question": {
+        "en": "What is your full name?",
+        "hi": "आपका पूरा नाम क्या है?",
+        "ta": "உங்கள் முழு பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "aadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "What is your Aadhaar number?",
+        "hi": "आपका आधार नंबर क्या है?",
+        "ta": "உங்கள் ஆதார் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "What is your mobile number?",
+        "hi": "आपका मोबाइल नंबर क्या है?",
+        "ta": "உங்கள் மொபைல் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state?",
+        "hi": "कौन सा राज्य?",
+        "ta": "எந்த மாநிலம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "district",
+      "type": "text",
+      "question": {
+        "en": "Which district?",
+        "hi": "कौन सा जिला?",
+        "ta": "எந்த மாவட்டம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "cropType",
+      "type": "text",
+      "question": {
+        "en": "What crop have you sown this season?",
+        "hi": "इस मौसम में आपने कौन सी फसल बोई है?",
+        "ta": "இந்த பருவத்தில் என்ன பயிர் விதைத்துள்ளீர்கள்?"
+      },
+      "required": true
+    },
+    {
+      "id": "cropArea",
+      "type": "land_size",
+      "question": {
+        "en": "How much area is under this crop (in acres)?",
+        "hi": "इस फसल के अंतर्गत कितना क्षेत्र है (एकड़ में)?",
+        "ta": "இந்த பயிரின் கீழ் எவ்வளவு பரப்பளவு உள்ளது (ஏக்கரில்)?"
+      },
+      "required": true
+    },
+    {
+      "id": "season",
+      "type": "text",
+      "question": {
+        "en": "Which season? (Kharif/Rabi/Zaid)",
+        "hi": "कौन सा मौसम? (खरीफ/रबी/जायद)",
+        "ta": "எந்த பருவம்? (காரிஃப்/ரபி/சைட்)"
+      },
+      "required": true
+    },
+    {
+      "id": "bankAccount",
+      "type": "bank_account",
+      "question": {
+        "en": "What is your bank account number?",
+        "hi": "आपका बैंक खाता नंबर क्या है?",
+        "ta": "உங்கள் வங்கி கணக்கு எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "ifsc",
+      "type": "ifsc",
+      "question": {
+        "en": "What is your bank IFSC code?",
+        "hi": "आपका बैंक IFSC कोड क्या है?",
+        "ta": "உங்கள் வங்கி IFSC குறியீடு என்ன?"
+      },
+      "required": true
+    }
+  ],
+  "deadline": "2026-07-31",
+  "isActive": true
+}

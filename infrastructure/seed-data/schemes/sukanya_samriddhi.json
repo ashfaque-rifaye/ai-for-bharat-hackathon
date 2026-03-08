@@ -1,0 +1,181 @@
+{
+  "schemeId": "SUKANYA-SAMRIDDHI",
+  "name": {
+    "en": "Sukanya Samriddhi Yojana",
+    "hi": "सुकन्या समृद्धि योजना",
+    "ta": "சுகன்யா சம்ரித்தி திட்டம்",
+    "bn": "সুকন্যা সমৃদ্ধি যোজনা",
+    "te": "సుకన్య సమృద్ధి యోజన",
+    "mr": "सुकन्या समृद्धी योजना",
+    "kn": "ಸುಕನ್ಯಾ ಸಮೃದ್ಧಿ ಯೋಜನೆ",
+    "ml": "സുകന്യ സമൃദ്ധി യോജന"
+  },
+  "description": {
+    "en": "Sukanya Samriddhi Yojana is a small savings scheme for the girl child, offering one of the highest interest rates among government savings schemes. Parents can open an account for a girl child below 10 years with a minimum deposit of ₹250. The account matures after 21 years.",
+    "hi": "सुकन्या समृद्धि योजना बेटियों के लिए एक छोटी बचत योजना है, जो सरकारी बचत योजनाओं में सबसे अधिक ब्याज दरों में से एक प्रदान करती है। माता-पिता 10 वर्ष से कम उम्र की बेटी के लिए न्यूनतम ₹250 की जमा राशि के साथ खाता खोल सकते हैं।",
+    "ta": "சுகன்யா சம்ரித்தி திட்டம் பெண் குழந்தைகளுக்கான ஒரு சிறு சேமிப்புத் திட்டமாகும், இது அரசு சேமிப்புத் திட்டங்களில் அதிகபட்ச வட்டி விகிதங்களில் ஒன்றை வழங்குகிறது.",
+    "bn": "সুকন্যা সমৃদ্ধি যোজনা 'বেটি বাঁচাও বেটি পড়াও' অভিযানের অধীনে মেয়ে শিশুদের ভবিষ্যতের জন্য একটি উচ্চ সুদের (৮.২%) সঞ্চয় প্রকল্প।",
+    "te": "సుకన్య సమృద్ధి 'బేటీ బచావో బేటీ పఢావో' కింద ఆడపిల్లల భవిష్యత్తు కోసం అధిక వడ్డీ (8.2%) పొదుపు పథకం.",
+    "mr": "सुकन्या समृद्धी 'बेटी बचाओ बेटी पढाओ' अंतर्गत मुलींच्या भविष्यासाठी उच्च व्याजदर (8.2%) बचत योजना.",
+    "kn": "ಸುಕನ್ಯಾ ಸಮೃದ್ಧಿ 'ಬೇಟಿ ಬಚಾವೋ ಬೇಟಿ ಪಢಾವೋ' ಅಡಿಯಲ್ಲಿ ಹೆಣ್ಣು ಮಕ್ಕಳ ಭವಿಷ್ಯಕ್ಕಾಗಿ ಹೆಚ್ಚು ಬಡ್ಡಿ (8.2%) ಉಳಿತಾಯ ಯೋಜನೆ.",
+    "ml": "സുകന്യ സമൃദ്ധി 'ബേട്ടി ബചാവോ ബേട്ടി പഢാവോ' പ്രകാരം പെൺകുട്ടികളുടെ ഭാവിക്കായി ഉയർന്ന പലിശ (8.2%) സമ്പാദ്യ പദ്ധതി."
+  },
+  "shortDescription": {
+    "en": "High-interest savings account for girl child (below 10 years)",
+    "hi": "बेटियों के लिए उच्च ब्याज बचत खाता (10 वर्ष से कम)",
+    "ta": "பெண் குழந்தைக்கு அதிக வட்டி சேமிப்பு கணக்கு (10 வயதிற்கு கீழ்)",
+    "bn": "মেয়েদের জন্য উচ্চ সুদের সঞ্চয় প্রকল্প",
+    "te": "ఆడపిల్లల కోసం అధిక వడ్డీ పొదుపు పథకం",
+    "mr": "मुलींसाठी उच्च व्याजदर बचत योजना",
+    "kn": "ಹೆಣ್ಣು ಮಕ್ಕಳಿಗಾಗಿ ಹೆಚ್ಚು ಬಡ್ಡಿ ಉಳಿತಾಯ ಯೋಜನೆ",
+    "ml": "പെൺകുട്ടികൾക്ക് ഉയർന്ന പലിശ സമ്പാദ്യ പദ്ധതി"
+  },
+  "category": "savings",
+  "ministry": "Ministry of Finance",
+  "eligibility": {
+    "description": {
+      "en": "Parents or legal guardians of a girl child below 10 years of age. Maximum 2 accounts per family (1 per girl).",
+      "hi": "10 वर्ष से कम उम्र की बेटी के माता-पिता या कानूनी अभिभावक। प्रति परिवार अधिकतम 2 खाते (1 प्रति बेटी)।",
+      "ta": "10 வயதிற்குட்பட்ட பெண் குழந்தையின் பெற்றோர் அல்லது சட்டப்பூர்வ பாதுகாவலர். ஒரு குடும்பத்திற்கு அதிகபட்சம் 2 கணக்குகள்."
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "hasGirlChild",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "girlChildAge",
+      "operator": "lt",
+      "value": 10
+    }
+  ],
+  "benefits": {
+    "amount": null,
+    "description": {
+      "en": "8.2% annual interest (highest among govt schemes), tax-free maturity, ₹250 minimum deposit",
+      "hi": "8.2% वार्षिक ब्याज (सरकारी योजनाओं में सर्वाधिक), कर-मुक्त परिपक्वता, न्यूनतम ₹250 जमा",
+      "ta": "8.2% ஆண்டு வட்டி (அரசு திட்டங்களில் அதிகபட்சம்), வரிவிலக்கு முதிர்வு, குறைந்தபட்சம் ₹250 வைப்பு",
+      "bn": "মেয়েদের জন্য উচ্চ সুদের সঞ্চয় প্রকল্প",
+      "te": "ఆడపిల్లల కోసం అధిక వడ్డీ పొదుపు పథకం",
+      "mr": "मुलींसाठी उच्च व्याजदर बचत योजना",
+      "kn": "ಹೆಣ್ಣು ಮಕ್ಕಳಿಗಾಗಿ ಹೆಚ್ಚು ಬಡ್ಡಿ ಉಳಿತಾಯ ಯೋಜನೆ",
+      "ml": "പെൺകുട്ടികൾക്ക് ഉയർന്ന പലിശ സമ്പാദ്യ പദ്ധതി"
+    },
+    "frequency": "annual"
+  },
+  "requiredDocuments": [
+    {
+      "id": "birthCertificate",
+      "name": {
+        "en": "Girl Child's Birth Certificate",
+        "hi": "बेटी का जन्म प्रमाणपत्र",
+        "ta": "பெண் குழந்தையின் பிறப்பு சான்றிதழ்"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "parentAadhaar",
+      "name": {
+        "en": "Parent/Guardian's Aadhaar",
+        "hi": "माता-पिता/अभिभावक का आधार",
+        "ta": "பெற்றோர்/பாதுகாவலர் ஆதார்"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "addressProof",
+      "name": {
+        "en": "Address Proof",
+        "hi": "पता प्रमाण",
+        "ta": "முகவரி ஆதாரம்"
+      },
+      "mandatory": true
+    }
+  ],
+  "formFields": [
+    {
+      "id": "parentName",
+      "type": "name",
+      "question": {
+        "en": "What is the parent/guardian's full name?",
+        "hi": "माता-पिता/अभिभावक का पूरा नाम?",
+        "ta": "பெற்றோர்/பாதுகாவலரின் முழு பெயர்?"
+      },
+      "required": true
+    },
+    {
+      "id": "girlName",
+      "type": "name",
+      "question": {
+        "en": "What is the girl child's full name?",
+        "hi": "बेटी का पूरा नाम क्या है?",
+        "ta": "பெண் குழந்தையின் முழு பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "girlDOB",
+      "type": "date",
+      "question": {
+        "en": "Girl child's date of birth?",
+        "hi": "बेटी की जन्म तिथि?",
+        "ta": "பெண் குழந்தையின் பிறந்த தேதி?"
+      },
+      "required": true
+    },
+    {
+      "id": "parentAadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "Parent's Aadhaar number?",
+        "hi": "माता-पिता का आधार नंबर?",
+        "ta": "பெற்றோர் ஆதார் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "Mobile number?",
+        "hi": "मोबाइल नंबर?",
+        "ta": "மொபைல் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state?",
+        "hi": "कौन सा राज्य?",
+        "ta": "எந்த மாநிலம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "depositAmount",
+      "type": "amount",
+      "question": {
+        "en": "How much would you like to deposit initially? (Minimum ₹250)",
+        "hi": "आप शुरू में कितना जमा करना चाहेंगे? (न्यूनतम ₹250)",
+        "ta": "ஆரம்பத்தில் எவ்வளவு வைப்பிட விரும்புகிறீர்கள்? (குறைந்தபட்சம் ₹250)"
+      },
+      "required": true
+    },
+    {
+      "id": "postOfficeOrBank",
+      "type": "text",
+      "question": {
+        "en": "Where would you like to open the account? (Post Office / Bank name)",
+        "hi": "आप खाता कहाँ खोलना चाहेंगे? (डाकघर / बैंक का नाम)",
+        "ta": "கணக்கை எங்கு திறக்க விரும்புகிறீர்கள்? (தபால் நிலையம் / வங்கியின் பெயர்)"
+      },
+      "required": true
+    }
+  ],
+  "deadline": null,
+  "isActive": true
+}

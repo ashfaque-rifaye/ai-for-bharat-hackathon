@@ -1,0 +1,205 @@
+{
+  "schemeId": "PM-MUDRA",
+  "name": {
+    "en": "Pradhan Mantri Mudra Yojana",
+    "hi": "प्रधानमंत्री मुद्रा योजना",
+    "ta": "பிரதமர் முத்ரா திட்டம்",
+    "bn": "প্রধানমন্ত্রী মুদ্রা যোজনা",
+    "te": "ప్రధానమంత్రి ముద్ర యోజన",
+    "mr": "प्रधानमंत्री मुद्रा योजना",
+    "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಮುದ್ರಾ ಯೋಜನೆ",
+    "ml": "പ്രധാനമന്ത്രി മുദ്ര യോജന"
+  },
+  "description": {
+    "en": "PM Mudra Yojana provides loans up to ₹10 lakh to non-corporate, non-farm small/micro enterprises. Loans are offered in 3 categories: Shishu (up to ₹50,000), Kishore (₹50,001 to ₹5 lakh), and Tarun (₹5 lakh to ₹10 lakh). No collateral required.",
+    "hi": "पीएम मुद्रा योजना गैर-कॉर्पोरेट, गैर-कृषि लघु/सूक्ष्म उद्यमों को ₹10 लाख तक का ऋण प्रदान करती है। ऋण 3 श्रेणियों में हैं: शिशु (₹50,000 तक), किशोर (₹50,001 से ₹5 लाख), और तरुण (₹5 लाख से ₹10 लाख)।",
+    "ta": "பிரதமர் முத்ரா திட்டம் நிறுவன அல்லாத, விவசாயம் அல்லாத சிறு/குறு நிறுவனங்களுக்கு ₹10 லட்சம் வரை கடன் வழங்குகிறது.",
+    "bn": "প্রধানমন্ত্রী মুদ্রা যোজনা ক্ষুদ্র ও ছোট ব্যবসায়ীদের ₹১০ লাখ পর্যন্ত জামানতবিহীন ঋণ প্রদান করে। তিনটি স্তর: শিশু (₹৫০,০০০ পর্যন্ত), কিশোর (₹৫ লাখ পর্যন্ত), তরুণ (₹১০ লাখ পর্যন্ত)।",
+    "te": "ప్రధానమంత్రి ముద్ర యోజన చిన్న వ్యాపారులకు ₹10 లక్షల వరకు హామీ లేని రుణం అందిస్తుంది. మూడు స్థాయిలు: శిశు (₹50,000 వరకు), కిశోర్ (₹5 లక్షల వరకు), తరుణ్ (₹10 లక్షల వరకు).",
+    "mr": "प्रधानमंत्री मुद्रा योजना सूक्ष्म आणि लघु व्यवसायांना ₹10 लाख पर्यंत बिनतारण कर्ज देते. तीन स्तर: शिशु (₹50,000 पर्यंत), किशोर (₹5 लाख पर्यंत), तरुण (₹10 लाख पर्यंत).",
+    "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಮುದ್ರಾ ಯೋಜನೆ ಸೂಕ್ಷ್ಮ ಮತ್ತು ಸಣ್ಣ ವ್ಯಾಪಾರಗಳಿಗೆ ₹10 ಲಕ್ಷದವರೆಗೆ ಖಾತರಿ ರಹಿತ ಸಾಲ ನೀಡುತ್ತದೆ. ಮೂರು ಹಂತಗಳು: ಶಿಶು, ಕಿಶೋರ್, ತರುಣ್.",
+    "ml": "പ്രധാനമന്ത്രി മുദ്ര യോജന സൂക്ഷ്മ-ചെറുകിട ബിസിനസ്സുകൾക്ക് ₹10 ലക്ഷം വരെ ജാമ്യമില്ലാ വായ്പ നൽകുന്നു. മൂന്ന് തലങ്ങൾ: ശിശു, കിശോർ, തരുൺ."
+  },
+  "shortDescription": {
+    "en": "Collateral-free loans up to ₹10 lakh for small businesses",
+    "hi": "छोटे व्यवसायों के लिए ₹10 लाख तक बिना गारंटी ऋण",
+    "ta": "சிறு தொழில்களுக்கு ₹10 லட்சம் வரை பிணையமில்லா கடன்",
+    "bn": "ক্ষুদ্র ব্যবসায়ের জন্য ₹১০ লাখ পর্যন্ত জামানতবিহীন ঋণ",
+    "te": "చిన్న వ్యాపారాలకు ₹10 లక్షల వరకు హామీ లేని రుణం",
+    "mr": "लघु व्यवसायासाठी ₹10 लाख पर्यंत बिनतारण कर्ज",
+    "kn": "ಸಣ್ಣ ವ್ಯಾಪಾರಕ್ಕೆ ₹10 ಲಕ್ಷದವರೆಗೆ ಖಾತರಿ ರಹಿತ ಸಾಲ",
+    "ml": "ചെറുകിട ബിസിനസ്സിന് ₹10 ലക്ഷം വരെ ജാമ്യമില്ലാ വായ്പ"
+  },
+  "category": "finance",
+  "ministry": "Ministry of Finance",
+  "eligibility": {
+    "description": {
+      "en": "Any Indian citizen with a business plan for non-farm income generating activities. Manufacturing, trading, services sector. No collateral required.",
+      "hi": "गैर-कृषि आय उत्पन्न करने वाली गतिविधियों के लिए व्यापार योजना वाला कोई भी भारतीय नागरिक। कोई गारंटी नहीं चाहिए।",
+      "ta": "விவசாயம் அல்லாத வருமானம் ஈட்டும் நடவடிக்கைகளுக்கு வணிகத் திட்டம் உள்ள எந்த இந்தியக் குடிமகனும்."
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "occupation",
+      "operator": "in",
+      "value": [
+        "business",
+        "self-employed",
+        "trader",
+        "artisan"
+      ]
+    },
+    {
+      "field": "hasBusiness",
+      "operator": "eq",
+      "value": true
+    }
+  ],
+  "benefits": {
+    "amount": 1000000,
+    "description": {
+      "en": "Loans in 3 categories: Shishu (≤₹50K), Kishore (₹50K-5L), Tarun (₹5L-10L). Low interest, no collateral.",
+      "hi": "3 श्रेणियों में ऋण: शिशु (≤₹50K), किशोर (₹50K-5L), तरुण (₹5L-10L)। कम ब्याज, कोई गारंटी नहीं।",
+      "ta": "3 வகைகளில் கடன்: சிசு (≤₹50K), கிஷோர் (₹50K-5L), தருண் (₹5L-10L). குறைந்த வட்டி, பிணையம் இல்லை.",
+      "bn": "ক্ষুদ্র ব্যবসায়ের জন্য ₹১০ লাখ পর্যন্ত জামানতবিহীন ঋণ",
+      "te": "చిన్న వ్యాపారాలకు ₹10 లక్షల వరకు హామీ లేని రుణం",
+      "mr": "लघु व्यवसायासाठी ₹10 लाख पर्यंत बिनतारण कर्ज",
+      "kn": "ಸಣ್ಣ ವ್ಯಾಪಾರಕ್ಕೆ ₹10 ಲಕ್ಷದವರೆಗೆ ಖಾತರಿ ರಹಿತ ಸಾಲ",
+      "ml": "ചെറുകിട ബിസിനസ്സിന് ₹10 ലക്ഷം വരെ ജാമ്യമില്ലാ വായ്പ"
+    },
+    "frequency": "one-time"
+  },
+  "requiredDocuments": [
+    {
+      "id": "aadhaar",
+      "name": {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "ta": "ஆதார் அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "businessPlan",
+      "name": {
+        "en": "Business Plan / Proposal",
+        "hi": "व्यापार योजना / प्रस्ताव",
+        "ta": "வணிகத் திட்டம் / முன்மொழிவு"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "bankPassbook",
+      "name": {
+        "en": "Bank Passbook",
+        "hi": "बैंक पासबुक",
+        "ta": "வங்கி பாஸ்புக்"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "idProof",
+      "name": {
+        "en": "Identity Proof (PAN/Voter ID)",
+        "hi": "पहचान प्रमाण (PAN/वोटर ID)",
+        "ta": "அடையாள ஆதாரம் (PAN/வாக்காளர் அட்டை)"
+      },
+      "mandatory": true
+    }
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "type": "name",
+      "question": {
+        "en": "What is your full name?",
+        "hi": "आपका पूरा नाम क्या है?",
+        "ta": "உங்கள் முழு பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "aadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "Aadhaar number?",
+        "hi": "आधार नंबर?",
+        "ta": "ஆதார் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "Mobile number?",
+        "hi": "मोबाइल नंबर?",
+        "ta": "மொபைல் எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "businessType",
+      "type": "text",
+      "question": {
+        "en": "What type of business do you run or want to start?",
+        "hi": "आप किस प्रकार का व्यवसाय चलाते हैं या शुरू करना चाहते हैं?",
+        "ta": "நீங்கள் எந்த வகையான தொழிலை நடத்துகிறீர்கள் அல்லது தொடங்க விரும்புகிறீர்கள்?"
+      },
+      "required": true
+    },
+    {
+      "id": "loanAmount",
+      "type": "amount",
+      "question": {
+        "en": "How much loan do you need?",
+        "hi": "आपको कितना ऋण चाहिए?",
+        "ta": "உங்களுக்கு எவ்வளவு கடன் தேவை?"
+      },
+      "required": true
+    },
+    {
+      "id": "loanCategory",
+      "type": "text",
+      "question": {
+        "en": "Which category? (Shishu up to ₹50K / Kishore up to ₹5L / Tarun up to ₹10L)",
+        "hi": "कौन सी श्रेणी? (शिशु ₹50K तक / किशोर ₹5L तक / तरुण ₹10L तक)",
+        "ta": "எந்த வகை? (சிசு ₹50K வரை / கிஷோர் ₹5L வரை / தருண் ₹10L வரை)"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state?",
+        "hi": "कौन सा राज्य?",
+        "ta": "எந்த மாநிலம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "bankAccount",
+      "type": "bank_account",
+      "question": {
+        "en": "Bank account number?",
+        "hi": "बैंक खाता नंबर?",
+        "ta": "வங்கி கணக்கு எண்?"
+      },
+      "required": true
+    },
+    {
+      "id": "ifsc",
+      "type": "ifsc",
+      "question": {
+        "en": "Bank IFSC code?",
+        "hi": "बैंक IFSC कोड?",
+        "ta": "வங்கி IFSC குறியீடு?"
+      },
+      "required": true
+    }
+  ],
+  "deadline": null,
+  "isActive": true
+}

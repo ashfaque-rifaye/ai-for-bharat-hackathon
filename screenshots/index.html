@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VaaniSetu — Prototype Screenshots</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #7c3aed 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; }
+        .hero p { font-size: 1.15rem; opacity: 0.9; max-width: 700px; margin: 0 auto; }
+        .hero .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 0.3rem 1rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            margin-top: 1rem;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+        .step-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            transition: box-shadow 0.2s;
+        }
+        .step-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .step-header {
+            display: flex; align-items: center; gap: 1rem;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--border);
+            background: #f1f5f9;
+        }
+        .step-number {
+            background: var(--primary); color: white;
+            width: 36px; height: 36px; border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700; font-size: 0.9rem; flex-shrink: 0;
+        }
+        .step-title { font-size: 1.05rem; font-weight: 600; }
+        .step-desc { font-size: 0.85rem; color: var(--text-muted); }
+        .step-image { padding: 1rem; text-align: center; }
+        .step-image img {
+            max-width: 100%; height: auto;
+            border-radius: 8px; border: 1px solid var(--border);
+        }
+        .footer {
+            text-align: center; padding: 2rem;
+            color: var(--text-muted); font-size: 0.85rem;
+        }
+        .footer a { color: var(--primary); text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 1.6rem; }
+            .hero p { font-size: 1rem; }
+            .container { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>VaaniSetu — Prototype Screenshots</h1>
+        <p>Complete happy-path walkthrough: from landing page through scheme matching, guided form filling, and application submission.</p>
+        <div class="badge">AI for Bharat Hackathon 2025</div>
+    </div>
+    <div class="container">
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">1</div>
+                <div>
+                    <div class="step-title">Landing Page — Hindi Greeting</div>
+                    <div class="step-desc">User opens VaaniSetu and sees the welcome screen in Hindi (default language).</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="01_landing_hindi.png" alt="Landing page with Hindi greeting" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">2</div>
+                <div>
+                    <div class="step-title">Switch to English</div>
+                    <div class="step-desc">User clicks "English" — the assistant greets them in English.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="02_english_greeting.png" alt="English greeting" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">3</div>
+                <div>
+                    <div class="step-title">Describe Situation — Scheme Recommendations</div>
+                    <div class="step-desc">User says "I am a farmer from Bihar with 2 acres of land" — AI recommends eligible government schemes.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="03_scheme_recommendations.png" alt="Scheme recommendations" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">4</div>
+                <div>
+                    <div class="step-title">Select PM-KISAN — Form Filling Begins</div>
+                    <div class="step-desc">User selects PM-KISAN. The AI starts the guided form and asks for their name.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="04_form_start.png" alt="Form filling starts" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">5</div>
+                <div>
+                    <div class="step-title">Form: Full Name</div>
+                    <div class="step-desc">User enters "Rajesh Kumar" — name is accepted, asks for father's name.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="05_form_name.png" alt="Name field" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">6</div>
+                <div>
+                    <div class="step-title">Form: Father's Name</div>
+                    <div class="step-desc">User enters "Suresh Kumar" — accepted, asks for Aadhaar number.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="06_form_father.png" alt="Father name field" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">7</div>
+                <div>
+                    <div class="step-title">Form: Aadhaar Number</div>
+                    <div class="step-desc">User enters 12-digit Aadhaar — validated and accepted, asks for mobile number.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="07_form_aadhaar.png" alt="Aadhaar field" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">8</div>
+                <div>
+                    <div class="step-title">Form: Mobile Number</div>
+                    <div class="step-desc">User enters 10-digit phone — validated, asks for district.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="08_form_phone.png" alt="Phone field" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">9</div>
+                <div>
+                    <div class="step-title">Form: District</div>
+                    <div class="step-desc">User enters "Patna" — accepted, asks for village name.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="09_form_district.png" alt="District field" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">10</div>
+                <div>
+                    <div class="step-title">Form: Village</div>
+                    <div class="step-desc">User enters "Danapur" — accepted, asks for bank account number.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="10_form_village.png" alt="Village field" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">11</div>
+                <div>
+                    <div class="step-title">Form: Bank Account Number</div>
+                    <div class="step-desc">User enters 14-digit bank account — validated, asks for IFSC code.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="11_form_bank.png" alt="Bank account field" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">12</div>
+                <div>
+                    <div class="step-title">Review Summary</div>
+                    <div class="step-desc">All 10 fields complete — AI shows a review summary of the application for confirmation.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="12_form_review.png" alt="Review summary" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">13</div>
+                <div>
+                    <div class="step-title">Application Submitted!</div>
+                    <div class="step-desc">User confirms — application is submitted and a unique Application ID is generated.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="13_application_submitted.png" alt="Application submitted" loading="lazy"></div>
+        </div>
+        <div class="step-card">
+            <div class="step-header">
+                <div class="step-number">14</div>
+                <div>
+                    <div class="step-title">Full Conversation Overview</div>
+                    <div class="step-desc">Complete scroll capture of the entire happy-path conversation.</div>
+                </div>
+            </div>
+            <div class="step-image"><img src="14_full_conversation.png" alt="Full conversation" loading="lazy"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p><strong>VaaniSetu</strong> — Voice-first multilingual AI assistant for Indian government schemes</p>
+        <p style="margin-top:0.5rem"><a href="https://d1mjmr4q1kedn7.cloudfront.net" target="_blank">Try the Live Prototype &rarr;</a></p>
+    </div>
+</body>
+</html>

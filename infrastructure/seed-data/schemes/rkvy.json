@@ -1,0 +1,192 @@
+{
+  "schemeId": "RKVY",
+  "name": {
+    "en": "Rashtriya Krishi Vikas Yojana",
+    "hi": "राष्ट्रीय कृषि विकास योजना",
+    "ta": "தேசிய வேளாண் வளர்ச்சி திட்டம்",
+    "bn": "রাষ্ট্রীয় কৃষি বিকাশ যোজনা",
+    "te": "రాష్ట్రీయ కృషి వికాస్ యోజన",
+    "mr": "राष्ट्रीय कृषी विकास योजना",
+    "kn": "ರಾಷ್ಟ್ರೀಯ ಕೃಷಿ ವಿಕಾಸ ಯೋಜನೆ",
+    "ml": "രാഷ്ട്രീയ കൃഷി വികാസ് യോജന"
+  },
+  "description": {
+    "en": "RKVY incentivizes states to increase public investment in agriculture and allied sectors. It provides flexible funding to states for agriculture development activities, including crop development, horticulture, mechanization, and marketing infrastructure.",
+    "hi": "RKVY राज्यों को कृषि और संबद्ध क्षेत्रों में सार्वजनिक निवेश बढ़ाने के लिए प्रोत्साहित करती है। यह कृषि विकास गतिविधियों के लिए राज्यों को लचीली फंडिंग प्रदान करती है।",
+    "ta": "RKVY விவசாயம் மற்றும் அதனுடன் தொடர்புடைய துறைகளில் பொது முதலீட்டை அதிகரிக்க மாநிலங்களை ஊக்குவிக்கிறது.",
+    "bn": "রাষ্ট্রীয় কৃষি বিকাশ যোজনা কৃষি উন্নয়নে রাজ্য সরকারদের নমনীয় তহবিল সরবরাহ করে, ফসলের বৈচিত্র্য, যান্ত্রিকীকরণ এবং অবকাঠামো উন্নয়নকে সমর্থন করে।",
+    "te": "RKVY వ్యవసాయ అభివృద్ధిలో రాష్ట్ర ప్రభుత్వాలకు అనువైన నిధులు అందించి, పంట వైవిధ్యం, యంత్రీకరణ మరియు మౌలిక సదుపాయాలకు మద్దతు ఇస్తుంది.",
+    "mr": "RKVY कृषी विकासासाठी राज्य सरकारांना लवचिक निधी देते, पीक विविधीकरण, यांत्रिकीकरण आणि पायाभूत सुविधांना पाठबळ देते.",
+    "kn": "RKVY ಕೃಷಿ ಅಭಿವೃದ್ಧಿಗೆ ರಾಜ್ಯ ಸರ್ಕಾರಗಳಿಗೆ ಹೊಂದಿಕೊಳ್ಳುವ ನಿಧಿ ಒದಗಿಸುತ್ತದೆ, ಬೆಳೆ ವೈವಿಧ್ಯ, ಯಾಂತ್ರೀಕರಣ ಮತ್ತು ಮೂಲಸೌಕರ್ಯಕ್ಕೆ ಬೆಂಬಲ.",
+    "ml": "RKVY കാർഷിക വികസനത്തിൽ സംസ്ഥാന സർക്കാരുകൾക്ക് വഴങ്ങുന്ന ഫണ്ട് നൽകുന്നു, വിള വൈവിധ്യം, യന്ത്രവൽക്കരണം, അടിസ്ഥാന സൗകര്യത്തിന് പിന്തുണ."
+  },
+  "shortDescription": {
+    "en": "Flexible agriculture development funding for farmers through states",
+    "hi": "राज्यों के माध्यम से किसानों के लिए लचीली कृषि विकास निधि",
+    "ta": "மாநிலங்கள் மூலம் விவசாயிகளுக்கு நெகிழ்வான விவசாய வளர்ச்சி நிதி",
+    "bn": "কৃষি ও সংশ্লিষ্ট ক্ষেত্রের উন্নয়নে সরকারি সহায়তা",
+    "te": "వ్యవసాయం మరియు అనుబంధ రంగాల అభివృద్ధికి ప్రభుత్వ సహాయం",
+    "mr": "कृषी आणि संलग्न क्षेत्रांच्या विकासासाठी सरकारी सहाय्य",
+    "kn": "ಕೃಷಿ ಮತ್ತು ಸಂಬಂಧಿತ ಕ್ಷೇತ್ರಗಳ ಅಭಿವೃದ್ಧಿಗೆ ಸರ್ಕಾರಿ ಸಹಾಯ",
+    "ml": "കൃഷിയുടെയും അനുബന്ധ മേഖലകളുടെയും വികസനത്തിന് സർക്കാർ സഹായം"
+  },
+  "category": "agriculture",
+  "ministry": "Ministry of Agriculture and Farmers Welfare",
+  "eligibility": {
+    "description": {
+      "en": "Farmers engaged in agriculture and allied activities. Specific criteria vary by state and sub-scheme.",
+      "hi": "कृषि और संबद्ध गतिविधियों में लगे किसान। विशिष्ट मानदंड राज्य और उप-योजना के अनुसार भिन्न होते हैं।",
+      "ta": "விவசாயம் மற்றும் அதனுடன் தொடர்புடைய நடவடிக்கைகளில் ஈடுபட்டுள்ள விவசாயிகள்."
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "occupation",
+      "operator": "eq",
+      "value": "farmer"
+    },
+    {
+      "field": "landSize",
+      "operator": "gt",
+      "value": 0,
+      "unit": "acres"
+    }
+  ],
+  "benefits": {
+    "amount": null,
+    "description": {
+      "en": "Variable funding for agriculture development — subsidies for equipment, seeds, irrigation, training",
+      "hi": "कृषि विकास के लिए परिवर्तनीय फंडिंग — उपकरण, बीज, सिंचाई, प्रशिक्षण के लिए सब्सिडी",
+      "ta": "விவசாய வளர்ச்சிக்கான மாறுபட்ட நிதி — உபகரணங்கள், விதைகள், நீர்ப்பாசனம், பயிற்சிக்கான மானியம்",
+      "bn": "কৃষি ও সংশ্লিষ্ট ক্ষেত্রের উন্নয়নে সরকারি সহায়তা",
+      "te": "వ్యవసాయం మరియు అనుబంధ రంగాల అభివృద్ధికి ప్రభుత్వ సహాయం",
+      "mr": "कृषी आणि संलग्न क्षेत्रांच्या विकासासाठी सरकारी सहाय्य",
+      "kn": "ಕೃಷಿ ಮತ್ತು ಸಂಬಂಧಿತ ಕ್ಷೇತ್ರಗಳ ಅಭಿವೃದ್ಧಿಗೆ ಸರ್ಕಾರಿ ಸಹಾಯ",
+      "ml": "കൃഷിയുടെയും അനുബന്ധ മേഖലകളുടെയും വികസനത്തിന് സർക്കാർ സഹായം"
+    },
+    "frequency": "project-based"
+  },
+  "requiredDocuments": [
+    {
+      "id": "aadhaar",
+      "name": {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "ta": "ஆதார் அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "landRecord",
+      "name": {
+        "en": "Land Record",
+        "hi": "भूमि रिकॉर्ड",
+        "ta": "நில ஆவணம்"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "bankPassbook",
+      "name": {
+        "en": "Bank Passbook",
+        "hi": "बैंक पासबुक",
+        "ta": "வங்கி பாஸ்புக்"
+      },
+      "mandatory": true
+    }
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "type": "name",
+      "question": {
+        "en": "What is your full name?",
+        "hi": "आपका पूरा नाम क्या है?",
+        "ta": "உங்கள் முழு பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "aadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "What is your Aadhaar number?",
+        "hi": "आपका आधार नंबर क्या है?",
+        "ta": "உங்கள் ஆதார் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "What is your mobile number?",
+        "hi": "आपका मोबाइल नंबर क्या है?",
+        "ta": "உங்கள் மொபைல் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state?",
+        "hi": "कौन सा राज्य?",
+        "ta": "எந்த மாநிலம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "district",
+      "type": "text",
+      "question": {
+        "en": "Which district?",
+        "hi": "कौन सा जिला?",
+        "ta": "எந்த மாவட்டம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "landSize",
+      "type": "land_size",
+      "question": {
+        "en": "How much agricultural land do you own (in acres)?",
+        "hi": "आपके पास कितनी कृषि भूमि है (एकड़ में)?",
+        "ta": "உங்களிடம் எவ்வளவு விவசாய நிலம் உள்ளது (ஏக்கரில்)?"
+      },
+      "required": true
+    },
+    {
+      "id": "cropType",
+      "type": "text",
+      "question": {
+        "en": "What crops do you grow?",
+        "hi": "आप कौन सी फसल उगाते हैं?",
+        "ta": "நீங்கள் என்ன பயிர்களை பயிரிடுகிறீர்கள்?"
+      },
+      "required": true
+    },
+    {
+      "id": "bankAccount",
+      "type": "bank_account",
+      "question": {
+        "en": "What is your bank account number?",
+        "hi": "आपका बैंक खाता नंबर क्या है?",
+        "ta": "உங்கள் வங்கி கணக்கு எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "ifsc",
+      "type": "ifsc",
+      "question": {
+        "en": "What is your bank IFSC code?",
+        "hi": "आपका बैंक IFSC कोड क्या है?",
+        "ta": "உங்கள் வங்கி IFSC குறியீடு என்ன?"
+      },
+      "required": true
+    }
+  ],
+  "deadline": "2026-03-31",
+  "isActive": true
+}

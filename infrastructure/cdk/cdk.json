@@ -1,0 +1,22 @@
+{
+  "app": "\"D:\\Projects\\AI for Bharat - Hackathon\\VaniSetu\\.venv\\Scripts\\python.exe\" app.py",
+  "watch": {
+    "include": ["**"],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "requirements*.txt",
+      "source.bat",
+      "**/__pycache__",
+      "**/.mypy_cache",
+      "tests"
+    ]
+  },
+  "context": {
+    "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
+    "@aws-cdk/core:checkSecretUsage": true,
+    "@aws-cdk/core:target-partitions": ["aws"],
+    "project": "vaanisetu",
+    "environment": "dev"
+  }
+}

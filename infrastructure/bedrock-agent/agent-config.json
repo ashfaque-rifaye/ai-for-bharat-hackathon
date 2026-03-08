@@ -1,0 +1,226 @@
+{
+  "agentName": "VaaniSetuAgent",
+  "description": "VaaniSetu Bedrock Agent for Government Scheme discovery and application assistance in Indian languages",
+  "foundationModel": "anthropic.claude-3-haiku-20240307-v1:0",
+  "idleSessionTTLInSeconds": 1800,
+  "instruction": "You are VaaniSetu (वाणी सेतु), a friendly and empathetic AI assistant that helps Indian citizens — especially rural farmers, women, and low-income families — discover and apply for government schemes.\n\nYour core capabilities:\n1. SCHEME DISCOVERY: Search and recommend government schemes based on user's profile (occupation, income, location, family size)\n2. ELIGIBILITY CHECK: Verify if a user qualifies for a specific scheme based on eligibility rules\n3. FORM FILLING: Collect required information one field at a time (Aadhaar, name, bank details, etc.)\n4. APPLICATION SUBMISSION: Submit completed applications and share reference numbers\n5. SMS NOTIFICATIONS: Send confirmation and status updates via SMS in the user's language\n\nIMPORTANT RULES:\n- Always respond in the user's chosen language (Hindi, English, or Tamil)\n- Keep responses SHORT and SIMPLE — many users are calling from basic phones\n- Ask ONE question at a time\n- Be respectful and patient\n- Validate Aadhaar (12 digits), phone (10 digits), IFSC (4 letters + 7 alphanumeric), pincode (6 digits)\n- Never reveal sensitive PII in full — always mask (XXXX-XXXX-1234 for Aadhaar)\n- Follow the conversation state machine: GREETING → NEED_ASSESSMENT → SCHEME_MATCH → ELIGIBILITY_CHECK → FORM_FILL → REVIEW → SUBMIT → COMPLETE",
+
+  "actionGroups": [
+    {
+      "actionGroupName": "SchemeSearchGroup",
+      "description": "Search and discover government schemes based on user needs",
+      "apiSchema": {
+        "functionSchema": {
+          "functions": [
+            {
+              "name": "search_schemes",
+              "description": "Search for government schemes matching user's profile and needs. Uses Knowledge Base RAG + keyword search.",
+              "parameters": {
+                "query": {
+                  "type": "string",
+                  "description": "Search query describing what the user needs (e.g., 'farming loan', 'housing for poor', 'health insurance')",
+                  "required": true
+                },
+                "category": {
+                  "type": "string",
+                  "description": "Scheme category filter: agriculture, housing, healthcare, finance, education, food, energy, savings, insurance",
+                  "required": false
+                },
+                "language": {
+                  "type": "string",
+                  "description": "User's language: hi-IN, en-IN, or ta-IN",
+                  "required": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "actionGroupName": "EligibilityGroup",
+      "description": "Check user eligibility for specific government schemes",
+      "apiSchema": {
+        "functionSchema": {
+          "functions": [
+            {
+              "name": "check_eligibility",
+              "description": "Check if a user is eligible for a specific scheme based on their profile data",
+              "parameters": {
+                "scheme_id": {
+                  "type": "string",
+                  "description": "The unique identifier of the government scheme (e.g., 'pm-kisan', 'ayushman-bharat')",
+                  "required": true
+                },
+                "user_profile": {
+                  "type": "string",
+                  "description": "JSON string of user profile data: {occupation, income, age, state, landSize, familySize, gender, caste, bplCard}",
+                  "required": true
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "actionGroupName": "FormValidationGroup",
+      "description": "Validate individual form fields for scheme applications",
+      "apiSchema": {
+        "functionSchema": {
+          "functions": [
+            {
+              "name": "validate_field",
+              "description": "Validate a single form field value (Aadhaar, phone, IFSC, pincode, name, date, etc.)",
+              "parameters": {
+                "field_type": {
+                  "type": "string",
+                  "description": "Type of field: aadhaar, phone, ifsc, pincode, name, date, amount, bank_account, land_size, state",
+                  "required": true
+                },
+                "value": {
+                  "type": "string",
+                  "description": "The value to validate",
+                  "required": true
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "actionGroupName": "ApplicationGroup",
+      "description": "Submit scheme applications and check status",
+      "apiSchema": {
+        "functionSchema": {
+          "functions": [
+            {
+              "name": "submit_application",
+              "description": "Submit a completed scheme application with all form data",
+              "parameters": {
+                "session_id": {
+                  "type": "string",
+                  "description": "Current session ID",
+                  "required": true
+                },
+                "scheme_id": {
+                  "type": "string",
+                  "description": "Scheme to apply for",
+                  "required": true
+                },
+                "form_data": {
+                  "type": "string",
+                  "description": "JSON string of completed form data with all required fields",
+                  "required": true
+                }
+              }
+            },
+            {
+              "name": "get_application_status",
+              "description": "Check the status of an existing application by application ID",
+              "parameters": {
+                "application_id": {
+                  "type": "string",
+                  "description": "Application reference number (e.g., VS-2026-XXXXX)",
+                  "required": true
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "actionGroupName": "NotificationGroup",
+      "description": "Send SMS notifications to users",
+      "apiSchema": {
+        "functionSchema": {
+          "functions": [
+            {
+              "name": "send_sms",
+              "description": "Send an SMS notification to the user with scheme info, application status, or reminders",
+              "parameters": {
+                "phone_number": {
+                  "type": "string",
+                  "description": "10-digit Indian phone number",
+                  "required": true
+                },
+                "message_type": {
+                  "type": "string",
+                  "description": "Type: application_submitted, status_update, scheme_match, documents_needed, welcome",
+                  "required": true
+                },
+                "language": {
+                  "type": "string",
+                  "description": "Message language: hi-IN, en-IN, or ta-IN",
+                  "required": true
+                },
+                "data": {
+                  "type": "string",
+                  "description": "JSON string with template data (scheme_name, application_id, status, etc.)",
+                  "required": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "actionGroupName": "FollowUpGroup",
+      "description": "Schedule follow-up activities",
+      "apiSchema": {
+        "functionSchema": {
+          "functions": [
+            {
+              "name": "schedule_followup",
+              "description": "Schedule a follow-up call or SMS to check on application status",
+              "parameters": {
+                "session_id": {
+                  "type": "string",
+                  "description": "Session ID for the user",
+                  "required": true
+                },
+                "followup_type": {
+                  "type": "string",
+                  "description": "Type: status_check (7 days), document_reminder (3 days), satisfaction_survey (14 days)",
+                  "required": true
+                },
+                "phone_number": {
+                  "type": "string",
+                  "description": "Phone number to follow up on",
+                  "required": true
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+
+  "knowledgeBases": [
+    {
+      "knowledgeBaseId": "<KNOWLEDGE_BASE_ID>",
+      "description": "Government scheme documents in Hindi, English, and Tamil. Contains eligibility criteria, benefits, application process, and required documents for 10+ central government schemes.",
+      "knowledgeBaseState": "ENABLED"
+    }
+  ],
+
+  "guardrailConfiguration": {
+    "guardrailIdentifier": "<GUARDRAIL_ID>",
+    "guardrailVersion": "DRAFT",
+    "description": "Content filtering for VaaniSetu: blocks political opinions, personal financial advice, non-scheme topics"
+  },
+
+  "promptOverrideConfiguration": {
+    "promptConfigurations": [
+      {
+        "promptType": "PRE_PROCESSING",
+        "promptCreationMode": "OVERRIDDEN",
+        "basePromptTemplate": "You are a pre-processing agent for VaaniSetu. Your job is to:\n1. Detect the user's language (Hindi, English, Tamil) from their input\n2. Classify the intent: scheme_search, eligibility_check, form_fill, application_status, general_query\n3. Extract key entities: scheme names, personal details, numbers\n4. Route to the appropriate action group\n\nAlways preserve the original language of the request."
+      }
+    ]
+  }
+}

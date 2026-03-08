@@ -1,0 +1,215 @@
+{
+  "schemeId": "PM-AWAS-GRAMIN",
+  "name": {
+    "en": "Pradhan Mantri Awas Yojana (Gramin)",
+    "hi": "प्रधानमंत्री आवास योजना (ग्रामीण)",
+    "ta": "பிரதமர் வீட்டுவசதி திட்டம் (கிராமப்புற)",
+    "bn": "প্রধানমন্ত্রী আবাস যোজনা",
+    "te": "ప్రధానమంత్రి ఆవాస్ యోజన",
+    "mr": "प्रधानमंत्री आवास योजना",
+    "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಆವಾಸ್ ಯೋಜನೆ",
+    "ml": "പ്രധാനമന്ത്രി ആവാസ് യോജന"
+  },
+  "description": {
+    "en": "PM Awas Yojana (Gramin) provides financial assistance of ₹1.20 lakh in plain areas and ₹1.30 lakh in hilly/difficult areas to Below Poverty Line (BPL) families for construction of pucca houses. The scheme aims to provide housing for all by 2026.",
+    "hi": "पीएम आवास योजना (ग्रामीण) बीपीएल परिवारों को पक्के मकान बनाने के लिए मैदानी इलाकों में ₹1.20 लाख और पहाड़ी/कठिन इलाकों में ₹1.30 लाख की वित्तीय सहायता प्रदान करती है।",
+    "ta": "பிரதமர் வீட்டுவசதி திட்டம் (கிராமப்புற) வறுமைக் கோட்டுக்கு கீழ் உள்ள குடும்பங்களுக்கு பக்கா வீடுகள் கட்ட சமவெளிப் பகுதிகளில் ₹1.20 லட்சமும் மலைப் பகுதிகளில் ₹1.30 லட்சமும் நிதி உதவி வழங்குகிறது.",
+    "bn": "প্রধানমন্ত্রী আবাস যোজনা অর্থনৈতিকভাবে দুর্বল ও নিম্ন-আয়ের পরিবারগুলিকে পাকা ঘরের জন্য আর্থিক সহায়তা প্রদান করে। শহুরে এলাকায় ₹২.৫ লাখ এবং গ্রামীণ এলাকায় ₹১.২ লাখ পর্যন্ত সহায়তা পাওয়া যায়।",
+    "te": "ప్రధానమంత్రి ఆవాస్ యోజన ఆర్థికంగా బలహీన మరియు తక్కువ ఆదాయ సమూహాలకు పక్కా ఇళ్ల కోసం ఆర్థిక సహాయం అందిస్తుంది. పట్టణ ప్రాంతాల్లో ₹2.5 లక్షలు మరియు గ్రామీణ ప్రాంతాల్లో ₹1.2 లక్షల వరకు.",
+    "mr": "प्रधानमंत्री आवास योजना आर्थिकदृष्ट्या दुर्बल आणि कमी उत्पन्न गटांना पक्क्या घरासाठी आर्थिक सहाय्य देते. शहरी भागात ₹2.5 लाख आणि ग्रामीण भागात ₹1.2 लाख पर्यंत.",
+    "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಆವಾಸ್ ಯೋಜನೆ ಆರ್ಥಿಕವಾಗಿ ದುರ್ಬಲ ಮತ್ತು ಕಡಿಮೆ ಆದಾಯ ಗುಂಪುಗಳಿಗೆ ಪಕ್ಕಾ ಮನೆಗಳಿಗಾಗಿ ಆರ್ಥಿಕ ನೆರವು ನೀಡುತ್ತದೆ. ನಗರ ₹2.5 ಲಕ್ಷ ಮತ್ತು ಗ್ರಾಮೀಣ ₹1.2 ಲಕ್ಷದವರೆಗೆ.",
+    "ml": "പ്രധാനമന്ത്രി ആവാസ് യോജന സാമ്പത്തികമായി ദുർബലരായ, കുറഞ്ഞ വരുമാന വിഭാഗങ്ങൾക്ക് പക്കാ വീടുകൾക്കായി സാമ്പത്തിക സഹായം നൽകുന്നു. നഗര ₹2.5 ലക്ഷവും ഗ്രാമീണ ₹1.2 ലക്ഷം വരെയും."
+  },
+  "shortDescription": {
+    "en": "₹1.2 lakh for building a pucca house for BPL families",
+    "hi": "बीपीएल परिवारों को पक्का मकान बनाने के लिए ₹1.2 लाख",
+    "ta": "வறுமைக் கோட்டு குடும்பங்களுக்கு பக்கா வீடு கட்ட ₹1.2 லட்சம்",
+    "bn": "গরিব পরিবারের জন্য পাকা ঘর নির্মাণে অনুদান",
+    "te": "పేద కుటుంబాలకు పక్కా ఇళ్ల నిర్మాణానికి సబ్సిడీ",
+    "mr": "गरीब कुटुंबांना पक्के घर बांधण्यासाठी अनुदान",
+    "kn": "ಬಡ ಕುಟುಂಬಗಳಿಗೆ ಪಕ್ಕಾ ಮನೆ ನಿರ್ಮಾಣಕ್ಕೆ ಸಬ್ಸಿಡಿ",
+    "ml": "ദരിദ്ര കുടുംബങ്ങൾക്ക് പക്കാ വീട് നിർമ്മാണത്തിന് സബ്‌സിഡി"
+  },
+  "category": "housing",
+  "ministry": "Ministry of Rural Development",
+  "eligibility": {
+    "description": {
+      "en": "BPL families without a pucca house, included in SECC-2011 data or Awas+ survey",
+      "hi": "पक्का मकान नहीं रखने वाले बीपीएल परिवार, SECC-2011 डेटा में शामिल",
+      "ta": "பக்கா வீடு இல்லாத வறுமைக் கோட்டு குடும்பங்கள், SECC-2011 தரவில் சேர்க்கப்பட்டவை"
+    }
+  },
+  "eligibilityRules": [
+    {
+      "field": "hasPuccaHouse",
+      "operator": "eq",
+      "value": false
+    },
+    {
+      "field": "bplCategory",
+      "operator": "eq",
+      "value": true
+    },
+    {
+      "field": "annualIncome",
+      "operator": "lte",
+      "value": 100000
+    }
+  ],
+  "benefits": {
+    "amount": 120000,
+    "description": {
+      "en": "₹1.20 lakh in plain areas for pucca house construction, paid in installments",
+      "hi": "मैदानी क्षेत्रों में पक्का मकान निर्माण के लिए ₹1.20 लाख, किस्तों में भुगतान",
+      "ta": "சமவெளிப் பகுதிகளில் பக்கா வீடு கட்டுமானத்திற்கு ₹1.20 லட்சம், தவணைகளில் வழங்கப்படும்",
+      "bn": "গরিব পরিবারের জন্য পাকা ঘর নির্মাণে অনুদান",
+      "te": "పేద కుటుంబాలకు పక్కా ఇళ్ల నిర్మాణానికి సబ్సిడీ",
+      "mr": "गरीब कुटुंबांना पक्के घर बांधण्यासाठी अनुदान",
+      "kn": "ಬಡ ಕುಟುಂಬಗಳಿಗೆ ಪಕ್ಕಾ ಮನೆ ನಿರ್ಮಾಣಕ್ಕೆ ಸಬ್ಸಿಡಿ",
+      "ml": "ദരിദ്ര കുടുംബങ്ങൾക്ക് പക്കാ വീട് നിർമ്മാണത്തിന് സബ്‌സിഡി"
+    },
+    "frequency": "one-time"
+  },
+  "requiredDocuments": [
+    {
+      "id": "aadhaar",
+      "name": {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "ta": "ஆதார் அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "bplCard",
+      "name": {
+        "en": "BPL Card / SECC Data",
+        "hi": "बीपीएल कार्ड / SECC डेटा",
+        "ta": "வறுமைக் கோட்டு அட்டை"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "landOwnership",
+      "name": {
+        "en": "Land Ownership Proof",
+        "hi": "भूमि स्वामित्व प्रमाण",
+        "ta": "நில உரிமை ஆதாரம்"
+      },
+      "mandatory": true
+    },
+    {
+      "id": "bankPassbook",
+      "name": {
+        "en": "Bank Passbook",
+        "hi": "बैंक पासबुक",
+        "ta": "வங்கி பாஸ்புக்"
+      },
+      "mandatory": true
+    }
+  ],
+  "formFields": [
+    {
+      "id": "name",
+      "type": "name",
+      "question": {
+        "en": "What is your full name?",
+        "hi": "आपका पूरा नाम क्या है?",
+        "ta": "உங்கள் முழு பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "aadhaar",
+      "type": "aadhaar",
+      "question": {
+        "en": "What is your 12-digit Aadhaar number?",
+        "hi": "आपका 12 अंकों का आधार नंबर क्या है?",
+        "ta": "உங்கள் 12 இலக்க ஆதார் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "phone",
+      "type": "phone",
+      "question": {
+        "en": "What is your mobile number?",
+        "hi": "आपका मोबाइल नंबर क्या है?",
+        "ta": "உங்கள் மொபைல் எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "state",
+      "type": "state",
+      "question": {
+        "en": "Which state do you live in?",
+        "hi": "आप किस राज्य में रहते हैं?",
+        "ta": "நீங்கள் எந்த மாநிலத்தில் வசிக்கிறீர்கள்?"
+      },
+      "required": true
+    },
+    {
+      "id": "district",
+      "type": "text",
+      "question": {
+        "en": "Which district?",
+        "hi": "कौन सा जिला?",
+        "ta": "எந்த மாவட்டம்?"
+      },
+      "required": true
+    },
+    {
+      "id": "village",
+      "type": "text",
+      "question": {
+        "en": "What is your village name?",
+        "hi": "आपके गाँव का नाम क्या है?",
+        "ta": "உங்கள் கிராமத்தின் பெயர் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "hasPuccaHouse",
+      "type": "text",
+      "question": {
+        "en": "Do you currently have a pucca (permanent) house?",
+        "hi": "क्या आपके पास अभी पक्का मकान है?",
+        "ta": "உங்களிடம் தற்போது பக்கா (நிரந்தர) வீடு உள்ளதா?"
+      },
+      "required": true
+    },
+    {
+      "id": "familyMembers",
+      "type": "text",
+      "question": {
+        "en": "How many family members do you have?",
+        "hi": "आपके परिवार में कितने सदस्य हैं?",
+        "ta": "உங்கள் குடும்பத்தில் எத்தனை உறுப்பினர்கள் உள்ளனர்?"
+      },
+      "required": true
+    },
+    {
+      "id": "bankAccount",
+      "type": "bank_account",
+      "question": {
+        "en": "What is your bank account number?",
+        "hi": "आपका बैंक खाता नंबर क्या है?",
+        "ta": "உங்கள் வங்கி கணக்கு எண் என்ன?"
+      },
+      "required": true
+    },
+    {
+      "id": "ifsc",
+      "type": "ifsc",
+      "question": {
+        "en": "What is your bank IFSC code?",
+        "hi": "आपका बैंक IFSC कोड क्या है?",
+        "ta": "உங்கள் வங்கி IFSC குறியீடு என்ன?"
+      },
+      "required": true
+    }
+  ],
+  "deadline": "2026-12-31",
+  "isActive": true
+}
